@@ -1,1 +1,1 @@
-# semerster-project-2025
+# semester-project-2025
