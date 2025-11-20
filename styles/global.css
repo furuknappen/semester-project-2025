@@ -1,0 +1,80 @@
+body{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+.radius{
+  border-radius: 50px;
+}
+
+.last{
+  margin-bottom: 7rem;
+}
+
+
+h1{
+  font-family: Nunito;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: normal;
+  color: var(--FontColor, #1C1D25);
+}
+
+h2{
+  color: var(--FontColor, #1C1D25);
+  font-family: Nunito;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: normal;
+}
+
+p{
+  color: var(--FontColor, #1C1D25);
+  font-family: "Nunito Sans";
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 200%; /* 40px */
+}
+
+
+/* .............. iPads (tablets) - Landscape ............ */
+@media (min-width: 768px)  {
+  h1{
+  font-family: Nunito;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: normal;
+  }
+
+  h2{
+    font-family: Nunito;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  p{
+    font-family: "Nunito Sans";
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 200%; /* 40px */
+  }
+
+  .last{
+    margin-bottom: 10rem;
+  }
+}
+
+/* ............ Desktops ................*/
+/* @media (min-width: 1025px) {
+
+
+} */
+
+/*............ Large Desktops ................*/
+/* @media (min-width: 2550px) {
+
+
+} */
+
