@@ -33,7 +33,7 @@ a{
 
 
 h1{
-  font-family: Nunito;
+  font-family: 'Nunito';
   font-size: 2rem;
   font-weight: 700;
   line-height: normal;
@@ -50,15 +50,17 @@ h2{
 
 p{
   color: var(--FontColor, #1C1D25);
-  font-family: "Nunito Sans";
+  font-family: Nunito_Sans;
   font-size: 1rem;
   font-weight: 500;
   line-height: 200%; /* 40px */
 }
+
 li {
   list-style: none;
 }
 
+.navLinkMob{}
 
 /* .............. iPads (tablets) - Landscape ............ */
 @media (min-width: 768px)  {
