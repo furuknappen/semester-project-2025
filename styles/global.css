@@ -11,6 +11,25 @@ body{
 .last{
   margin-bottom: 7rem;
 }
+.flex{
+  display: flex;
+}
+
+.purple{
+  background-color: var(--purple);
+}
+.blue{
+  background-color: var(--blue);
+}
+
+.green{
+  background-color: var(--green);
+}
+
+a{
+  text-decoration: none;
+  color: var(--FontColor);
+}
 
 
 h1{
