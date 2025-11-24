@@ -1,0 +1,108 @@
+header {
+  position: static;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 1rem;
+  height: 3.5rem;
+  margin-top: 0rem;
+  /*dette er ikke et godt valg*/
+  box-shadow: 0 1px 3px hsla(193, 53%, 35%, 0.12);
+}
+
+.navLinks {
+  display: none;
+  justify-content: space-evenly;
+  flex: 1; 
+}
+
+.navLink:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+.navLink:active {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+
+/* .............. iPads (tablets) - Landscape ............ */
+@media (min-width: 769px)
+/*and (max-width: 1024px)*/
+  {
+  header {
+    padding-inline: 1.5rem;
+    /* background-color: rgb(236, 180, 180); */
+    height: 3.5rem;
+    margin-top: 0rem
+  }
+
+  .navLinks {
+    display: flex;
+
+  }
+
+.navLinksMob{ 
+  display: none;
+}
+
+}
+
+
+
+/*............ Desktops ................*/
+@media (min-width: 1025px) {
+  header {
+    padding-inline: 1.5rem;
+    /* background-color: rgb(235, 142, 142); */
+    height: 4rem;
+    margin-top: 0px;
+    align-items: center;
+  }
+
+  .navLinks {
+    max-width: 70rem;
+    font-size: 1.4rem;
+    justify-self: center;
+  }
+
+}
+
+
+
+.navMobLinks {
+  position: absolute;
+  right: 0;
+  top: 56px;
+  background-color: var(--accentColor5);
+  padding-block: 1rem;
+  /* flex-direction: column; */
+}
+
+.navLink {
+  display: block;
+  padding-block: 0.4rem;
+  padding-left: 1rem;
+  padding-right: 3rem;
+}
+
+.navLink:active {
+  background-color: var(--accentColor4);
+}
+
+
+.navLinkMob{
+  padding-block: 3px;
+  width: 100%;
+  text-align: center;
+  margin: 0.2rem;
+  border-radius: var(--round);
+  
+}
+.navDiv1{
+  margin-top: 0.4rem;
+}
+
+
