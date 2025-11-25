@@ -1,11 +1,41 @@
+@font-face {
+  font-family: 'Nunito';
+  src: url('/assets/fonts/nunito/Nunito-VariableFont_wght.ttf') format('woff2');
+  /* font-weight:700; */
+  font-style: normal;
+  font-display: swap;
+}
 
-:root{
+@font-face {
+  font-family: 'Nunito Sans';
+  src: url('/assets/fonts/Nunito_Sans/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+:root {
   --blue: #6CDCED;
+  --blueLight: #AFF4FF;
+  --blueDark:#104851;
   --purple: #D0AAFF;
+  --purpleLight:#E0C7FF;
+  --purpleDark: #4F00B0;
   --green: #BAEE6D;
+  --greenLight: #D9FFA1;
+  --greenDark: #006B1D;
   --fontColor: #1C1D25;
 
   --round: 50px;
+  --radius-box: 15px;
+
+  --gap1: 1rem;
+  --gap2: 2rem;
+  --gap3: 3rem;
+  --gap4: 4rem;
+  --gap5: 5rem;
+  
   --radius-box: 30px;
   --header-font: 'Nunito','Verdana';
   --p-font: 'Nunito Sans', 'Verdana';

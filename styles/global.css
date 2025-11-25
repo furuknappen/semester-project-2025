@@ -2,6 +2,7 @@ body{
   padding:0;
   margin:0;
   box-sizing: border-box;
+  font-family: "Nunito Sans";
 }
 
 .radius{
@@ -9,8 +10,9 @@ body{
 }
 
 .last{
-  margin-bottom: 7rem;
+  margin-bottom: var(--gap5);
 }
+
 .flex{
   display: flex;
 }
@@ -33,7 +35,7 @@ a{
 
 
 h1{
-  font-family: Nunito;
+  font-family: 'Nunito';
   font-size: 2rem;
   font-weight: 700;
   line-height: normal;
@@ -55,10 +57,12 @@ p{
   font-weight: 500;
   line-height: 200%; /* 40px */
 }
+
 li {
   list-style: none;
 }
 
+.navLinkMob{}
 
 /* .............. iPads (tablets) - Landscape ............ */
 @media (min-width: 768px)  {
