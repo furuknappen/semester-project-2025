@@ -7,10 +7,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Come and explore the laws of the universe and learn about our past and future!">
 
-	<link rel="preconnect" src="assets/fonts/Nunito/Nunito-Italic-VariableFont_wght.ttf">
-	<link rel="preconnect" src="assets/fonts/Nunito/Nunito-VariableFont_wght.ttf">
-	<link rel="preconnect" src="assets/fonts/Nunito_Sans/NunitoSans-Italic-VariableFont_YTLC,opsz,wdth,wght.ttf">
-	<link rel="preconnect" src="assets/fonts/Nunito_Sans/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf">
 
 	<meta property="og:title" content="Community Science Museum">
 	<meta property="og:description"
@@ -32,6 +28,8 @@
 	<link rel="stylesheet" href="styles/variables.css">
 	<link rel="stylesheet" href="styles/global.css">
 	<link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/home.css">
+  <link rel="stylesheet" href="styles/components.css">
 
 	<title>Community Science Museum | Home</title>
 </head>
@@ -40,31 +38,80 @@
 <body>
 	<header>
 		<a href="./" aria-label="Community Science Museum">
-			<!-- <img id="logo" src="svg-img/img/rainyDaysLogoSmall.svg" alt=""> -->
+			<img id="logoHeader" src="assets/svg/logo-small.svg" alt="Community Science Museum">
 		</a>
 
 
-		<nav class="navLinks" aria-label="Main Navigation">
-			<a class="navLink" href="/visit.html">Visit</a>
-			<a class="navLink" href="/explore.html">Explore</a>
-			<a class="navLink" href="/events.html">Events</a>
-			<a class="navLink" href="/get-involved.html">Get involved</a>
-			<a class="navLink" href="/exhibitions.html">Exhibitions</a>
+		<nav aria-label="Main Navigation">
+			<ul class="navLinks">
+				<li class="navLink"><a href="/visit.html">Visit</a></li>
+				<li class="navLink"><a href="/explore.html">Explore</a></li>
+				<li class="navLink"><a href="/events.html">Events</a></li>
+				<li class="navLink"><a href="/get-involved.html">Get involved</a></li>
+				<li class="navLink"><a href="/exhibitions.html">Exhibitions</a></li>
+			</ul>
 		</nav>
 	</header>
-	
-	<nav class="navLinksMob" aria-label="Main Navigation">
-		<div class="flex navDiv1">
-			<a class="navLinkMob blue" href="/visit.html">Visit</a>
-			<a class="navLinkMob green" href="/explore.html">Explore</a>
-			<a class="navLinkMob purple" href="/events.html">Events</a>
-		</div>
 
-		<div class="flex navDiv2">
-			<a class="navLinkMob blue" href="/exhibitions.html">Exhibitions</a>
-			<a class="navLinkMob purple" href="/get-involved.html">Get involved</a>
-		</div>
+	<nav class="navLinksMob" aria-label="Mobile Navigation">
+		<ul class="flex ">
+			<li class="navLinkMob blue">
+				<a href="/visit.html">Visit</a>
+			</li>
+			<li class="navLinkMob green">
+				<a href="/explore.html">Explore</a>
+			</li>
+			<li class="navLinkMob purple">
+				<a href="/events.html">Events</a>
+			</li>
+		</ul>
+		<ul class="flex navDiv2">
+			<li class="navLinkMob blue">
+				<a href="/exhibitions.html">Exhibitions</a>
+			</li>
+			<li class="navLinkMob purple">
+				<a href="/get-involved.html">Get involved</a>
+			</li>
+		</ul>
 	</nav>
-</body>
 
-</html>
+<section>
+	<img class="heroImg" src="/assets/img/hero-image-homepage.jpg"/>
+</section>
+
+<main class="homeMain">
+
+<div class="intro">
+<h1>Come explore with us!</h1>
+<p>Come join us at the Community Science Museum where we're committed to making science accessible to all!</p>
+</div>
+
+
+
+
+<div class="btnDivHome last">
+<a class="btnSquare btnBlue">Visit</a>
+<a class="btnSquare btnPurple">Explore</a>
+<a class="btnSquare btnGreen">Events</a>
+</div>
+
+<section class="gridContainer">
+<p class="box blue" style="grid-area: box-1">
+Over the course of human history, science has developed from our early understanding of fire, wind, water, and earth to exploring everything from galaxies far away to the very building blocks of life itself.</p>
+<img class="homeImg homeImg1 box" style="grid-area: box-2" src="/assets/img/solar-panel.jpg" alt="Solar panels in a green field on a sunny day">
+<p class="box purple" style="grid-area: box-4">
+	The aim of our museum is to create a space where everyone can experience the wonders of our discoveries and perhaps even ignite a lifelong passion to continue the exploration of the world around us.
+</p>
+<img class="homeImg homeImg2 box" style="grid-area: box-3" src="/assets/img/woman-vr.jpg" alt="Woman standing with VR glasses in front of a complex background with connecting dots that looks like a galaxy">
+
+<p class="box green" style="grid-area: box-5">
+	We believe science should not be confined to the textbook, but brought to live through exhibits. This is why we have over 1000 different exhibits on the many varied subjects of science to explore. Many of these exhibits are designed for you to interact with and play around to see science come to life (apart from the dinosaur exhibits - they only come to life at night when everyone's gone home).
+</p>
+<img class="box homeImg homeImg3 last" style="grid-area: box-6" src="/assets/img/dinosaur-skeleton.jpg" alt="Dinosaur skull on a museum, probably a triceratops">
+</section>
+</main>
+
+</body>
+</html><!-- <a class="btn btnBlue">Read more</a>
+<a class="btn btnPurple">Read more</a>
+<a class="btn btnGreen">Read more</a> -->

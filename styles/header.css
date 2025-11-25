@@ -11,10 +11,25 @@ header {
   box-shadow: 0 1px 3px hsla(193, 53%, 35%, 0.12);
 }
 
+#logoHeader {
+  height: 2.5rem;
+  margin-right: 1.5rem;
+}
+
 .navLinks {
   display: none;
   justify-content: space-evenly;
-  flex: 1; 
+  flex: 1;
+  flex-direction: row;
+  margin-right: 3rem
+}
+
+.navLink {
+  display: block;
+  padding-block: 0.4rem;
+  padding-left: 1rem;
+  padding-right: 3rem;
+  font-family: 'Nunito',Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .navLink:hover {
@@ -27,6 +42,21 @@ header {
   text-decoration-thickness: 2px;
 }
 
+.navLinksMob ul{ 
+  padding-inline: 0.5rem
+
+}
+
+.navLinkMob {
+  padding-block: 3px;
+  width: 100%;
+  text-align: center;
+  margin: 0.2rem;
+  border-radius: var(--round);
+  font-family: 'Nunito',Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
 
 /* .............. iPads (tablets) - Landscape ............ */
 @media (min-width: 769px)
@@ -34,19 +64,16 @@ header {
   {
   header {
     padding-inline: 1.5rem;
-    /* background-color: rgb(236, 180, 180); */
     height: 3.5rem;
-    margin-top: 0rem
   }
 
   .navLinks {
     display: flex;
-
   }
 
-.navLinksMob{ 
-  display: none;
-}
+  .navLinksMob {
+    display: none;
+  }
 
 }
 
@@ -55,10 +82,8 @@ header {
 /*............ Desktops ................*/
 @media (min-width: 1025px) {
   header {
-    padding-inline: 1.5rem;
-    /* background-color: rgb(235, 142, 142); */
+    padding-inline: 2rem;
     height: 4rem;
-    margin-top: 0px;
     align-items: center;
   }
 
@@ -66,43 +91,15 @@ header {
     max-width: 70rem;
     font-size: 1.4rem;
     justify-self: center;
+
   }
 
+  #logoHeader {
+    height: 3rem;
+  }
+
+
 }
 
-
-
-.navMobLinks {
-  position: absolute;
-  right: 0;
-  top: 56px;
-  background-color: var(--accentColor5);
-  padding-block: 1rem;
-  /* flex-direction: column; */
-}
-
-.navLink {
-  display: block;
-  padding-block: 0.4rem;
-  padding-left: 1rem;
-  padding-right: 3rem;
-}
-
-.navLink:active {
-  background-color: var(--accentColor4);
-}
-
-
-.navLinkMob{
-  padding-block: 3px;
-  width: 100%;
-  text-align: center;
-  margin: 0.2rem;
-  border-radius: var(--round);
-  
-}
-.navDiv1{
-  margin-top: 0.4rem;
-}
 
 
