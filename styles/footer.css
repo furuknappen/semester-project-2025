@@ -2,4 +2,81 @@ dl {
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 1rem;
+  color: var(--fontColor);
+  font-family: var(--header-font);
+}
+ul {
+  margin:0;
+  padding:0;
+  line-height: 3rem;
+  font-family: var(--header-font);
+}
+
+.footer-headings {
+  font-family: var(--header-font);
+  color: var(--fontColor);
+  font-size: 1rem;
+  text-decoration: underline;
+  font-weight: 600;
+}
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--green);
+  flex: wrap;
+  padding: 2rem 2rem 2rem 2rem;
+}
+.footer-logo-container {
+  display: flex;
+  justify-self: center;
+  justify-items: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.social-media-container img {
+  width: 24px;
+  height:24px;
+  color: var(--fontColor);
+  margin-block: 2rem;
+}
+.social-media-container {
+  display: flex;
+  justify-self: center;
+  justify-items: center;
+  justify-content: space-between;
+  gap:1rem;
+}
+.copyright-container {
+  justify-items: center;
+}
+.opening-hours-container, .information-container {
+  display: flex;
+  flex-direction: column;
+}
+ /* .............. iPads (tablets) - Landscape ............ */
+@media (min-width: 768px) {
+  .footer-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+      padding-inline: 15%;
+  }
+  .copyright-container {
+    width: 100%;
+    text-align: center;
+    margin-top:2rem;
+  }
+  .footer-logo-container img {
+    max-width: 15rem;
+  }
+
+}
+/*............ Desktops ................*/
+@media (min-width: 1025px) {
+  .footer-container {
+    justify-content: space-around;
+  
+  }
 }
