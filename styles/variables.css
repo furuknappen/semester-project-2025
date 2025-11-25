@@ -36,4 +36,7 @@
   --gap4: 4rem;
   --gap5: 5rem;
   
+  --radius-box: 30px;
+  --header-font: 'Nunito','Verdana';
+  --p-font: 'Nunito Sans', 'Verdana';
 }
