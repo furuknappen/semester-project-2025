@@ -2,6 +2,7 @@ body{
   padding:0;
   margin:0;
   box-sizing: border-box;
+  font-family: "Nunito Sans";
 }
 
 .radius{
@@ -9,8 +10,9 @@ body{
 }
 
 .last{
-  margin-bottom: 7rem;
+  margin-bottom: var(--gap5);
 }
+
 .flex{
   display: flex;
 }
@@ -50,7 +52,7 @@ h2{
 
 p{
   color: var(--FontColor, #1C1D25);
-  font-family: Nunito_Sans;
+  font-family: "Nunito Sans";
   font-size: 1rem;
   font-weight: 500;
   line-height: 200%; /* 40px */
