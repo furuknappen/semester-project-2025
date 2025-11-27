@@ -1,13 +1,12 @@
-.homeMain{
-  padding-inline: var(--gap3);
+/* .homeMain {
+  padding-inline: clamp(1rem, 5vw, 7rem);
   display: flex;
   flex-direction: column;
   justify-content: center;
 
-}
+} */
 
-
-.heroImg{
+.heroImg {
   width: 100%;
   height: 300px;
   object-fit: cover;
@@ -15,122 +14,150 @@
   display: block;
 
 }
-.intro{
-display:flex;
-flex-direction: column;
-align-items: center;
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-  
-.btnDivHome{
-  display:flex;
+
+.btnDivHome {
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* width: 65%; */
-  gap:1rem;
+  gap: 1rem;
   margin-top: 2rem;
 
 }
 
-.gridContainer p {
-  /* background-color: transparent; */
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 1rem;
+  max-width: 100%;
+  max-height: 300px;
+  ;
 }
 
-.homeImg{
-  width: 100%;
-  height: 60vw;
-  object-fit: cover;
-  object-position: 55% 50%;
-  display: block;
+.grid-img-div {
   border-radius: var(--radius-box);
-  margin-block: var(--gap2);
-  
+  display: block;
+  width: 100%;
+  height: 400px
 }
 
-/* .homeImg3{ 
- height: 200px;
-
-} */
-
-
-
-
-
-
+.grid-img-div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  margin-block: 0;
+  /* object-position: 55% 50%; */
+  border-radius: var(--radius-box);
+}
 
 /* .............. iPads (tablets) - Landscape ............ */
-@media (min-width: 768px)  {
-  .homeMain{
-    padding-inline: 7rem;
-    width: 900px;
-    margin-inline: auto ;
+@media (min-width: 768px) {
+
+  .homeMain {
+    /* padding-inline: 1rem; */
+    
+    margin-inline: auto;
   }
-  
-  .heroImg{
+
+  .heroImg {
     height: 650px;
     object-position: 55% 50%;
   }
 
-  .btnDivHome{
-    display:flex;
+  .btnDivHome {
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     /* width: 65%; */
-    gap:1rem;
+    gap: 1rem;
     margin-top: 2rem;
 
   }
 
- .homeImg{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: 55% 50%;
-  display: block;
-  border-radius: var(--radius-box);
-  margin-block: var(--gap2);
+  .gridContainer {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+     gap: 1rem;
+
+    
   
- }
+  }
 
- .homeImg2{
-    object-position: top;
- }
+  .gridContainer p {
+    padding: 3rem;
+    border-radius: var(--radius-box);
+    margin-block: 0px;
+  }
 
+  .box-1 {
+    background-color: var(--blue);
+  }
 
-.gridContainer{
-  display: grid;
-  grid-template-columns: 350px 350px 350px;
-  grid-template-rows: 350px 350px 350px;
-  gap: 1rem;
-  grid-template-areas: 
-  "box-1 box-2 box-2"
-  "box-3 box-3 box-4"
-  "box-5 box-5 box-6";
-  align-items:center;
-  
+  .box-2 {
+    grid-column: span 2 / span 2;
+  }
+
+  .box-3 {
+    grid-column: span 2 / span 2;
+    grid-row-start: 2;
+
+  }
+
+  .box-4 {
+    grid-column-start: 3;
+    grid-row-start: 2;
+    background-color: var(--purple);
+  }
+
+  .box-5 {
+    grid-column: span 2 / span 2;
+    grid-row-start: 3;
+    background-color: var(--green);
+  }
+
+  .box-6 {
+    grid-column-start: 3;
+    grid-row-start: 3;
+  }
+
 }
 
-.gridContainer p {
-  padding: 3rem;
-  /* height: 350px;
-  width: 350px */
-}
 
 
 
-}
+
 
 /* ............ Desktops ................*/
 @media (min-width: 1025px) {
-  .btnDivHome{
-    display:flex;
+    .homeMain {
+    /* padding-inline: 7rem; */
+      width: 900px;
+  }
+
+  .btnDivHome {
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     /* width: 65%; */
-    gap:5rem;
+    gap: 5rem;
     margin-top: 2rem;
 
+  }
+
+  .gridContainer {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 400px);
+    gap: 1rem;
   }
 }
