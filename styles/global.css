@@ -5,6 +5,14 @@ body{
   font-family: "Nunito Sans";
 }
 
+main{
+  padding-inline: clamp(1rem, 5vw, 7rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
 .radius{
   border-radius: 50px;
 }
