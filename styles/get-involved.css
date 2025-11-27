@@ -1,0 +1,54 @@
+.get-involved-with-us img {
+width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+}
+.get-involved-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.get-involved-img-container img {
+border-radius: var(--radius-box);
+}
+.get-involved-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-auto-rows: repeat(3, 1fr);
+  max-width: 30ch;
+  
+}
+.get-involved-grid img {
+  width:100%;
+  height:auto;
+}
+.get-involved-box {
+  border-radius: var(--radius-box);
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+/* .............. iPads (tablets) - Landscape ............ */
+@media (min-width: 768px) {
+  .get-involved-grid { 
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 100ch;
+  column-gap: 4rem;
+}
+.get-involved-box {
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+}
+.get-involved-with-us img {
+  width: 100%;
+  height: 600px;
+}
+
+}
+/* .............. Desktop ............ */
+@media (min-width: 1025px) {
+  .get-involved-grid {
+    max-width: 120ch;
+  }
+}
