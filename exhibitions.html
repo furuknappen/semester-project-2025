@@ -38,32 +38,10 @@
 
 
 <body>
-
-
-  <main>   <a class="flex-row blue radius">
-      <div >
-      <h2>See all out guest exhibitions and events!</h2>
-      <div class="flex-row ">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="4 4 13 16" fill="none"
-          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-          class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-left">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-          <path d="M5 12l14 0" />
-          <path d="M5 12l6 6" />
-          <path d="M5 12l6 -6" />
-        </svg>
-        <p>Along with our permanent exhibitions, we also have different guest exhibitions and special installments. Only
-          a limited time!</p>
-      </div>
-    </div>
-   
-      <img src="assets/img/colors.jpg" alt="Colored glass cylinders making colorful shadows on a surface">
-    </a>
-
-
-    <section>
-      <h1>Exhibition Spaces</h1>
-      <article>
+  <main>
+    <section aria-labelledby="exhibitions-heading" role="list">
+      <h1  id="exhibitions-heading">Exhibition Spaces</h1>
+      <article role="listitem">
         <h2>Cosmology</h2>
         <img class="articleImg" src="assets/img/galaxy.jpg" alt="A galaxy in space" />
 
@@ -73,35 +51,35 @@
 
         <p class="last">Follow the journey of our solar exploration: from early Arab traders, to Galileo's telescope, to
           the latest
-          exploration of the planets in our solar system.></p>
+          exploration of the planets in our solar system.</p>
 
       </article>
 
-      <article>
+      <article role="listitem">
         <h2>Evolution</h2>
         <img class="articleImg" src="assets/img/evolution-skeletons.jpg"
-          alt="four skeletons in different stages of human evolution" />
-        <p>For centuries, philosophers and scientists have wrestled with the question of our origins. Where do we come
-          from and how did we get here? Since Darwin proposed his theory of evolution we have had a framework for
+          alt="Four skeletons showing different stages of human evolution" />
+        <p>For centuries, philosophers and scientists have wrestled with the question of our origins. Where do we
+          come from and how did we get here? Since Darwin proposed his theory of evolution we have had a framework for
           exploring and understanding our place in this world.</p>
 
-        <p class="last">Discover the origins of life on this planet and how the species we know today have evolved our
+        <p class="last"> Discover the origins of life on this planet and how the species we know today have evolved over
           time. You can also take some time to meet a few of the creatures who didn't survive, including our Woolly
           Mammoth, the Dodos, and a number of dinosaurs too.</p>
       </article>
-      <article>
+      <article role="listitem">
         <h2>Robotics and AI</h2>
         <img class="articleImg" src="assets/img/ai-arm.jpg"
-          alt="A white robot arm that is reaching out towards the camera">
+          alt="A white robot arm reaching toward the camera">
         <p class="last">The information revolution is here and robotics and artificial intelligence are the science of
           the future. From useful home applications of AI to industrial uses of robotics, the future is here. You can
           even say hello and shake the hand of Rob the Robot.</p>
 
       </article>
 
-      <article>
+      <article role="listitem">
         <h2>Ecology</h2>
-        <img class="articleImg" src="assets/img/hands-with-plant.jpg" alt="hands holding a plant in them">
+        <img class="articleImg" src="assets/img/hands-with-plant.jpg" alt="hands holding a small green plant">
         <p>
           As we learn more and more of the impact humans are having on the planet, the more important it becomes that
           scientists explore how to create a sustainable future not just for humans but for the whole planet.
@@ -109,12 +87,30 @@
         <p class="last">
           In our ecology section of the museum, we unpack the dangers we currently face including global warming,
           extinction of species, and pollution. But we also focus on the positive ways we can all contribute to a
-          brighter future.</p>
+          brighter  future.</p>
       </article>
     </section>
 
+    <a class=" flex-row blue radius">
+      <div class="ancortag">
+        <h2 class="headingA">See all out guest exhibitions and events!</h2>
+        <div class="flex-row ">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="4 4 16 16" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-left">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M5 12l14 0" />
+            <path d="M5 12l6 6" />
+            <path d="M5 12l6 -6" />
+          </svg>
+          <p>Along with our permanent exhibitions, we also have different guest exhibitions and special installments.
+            Only
+            a limited time!</p>
+        </div>
+      </div>
 
- 
+      <img src="assets/img/colors.jpg" alt="Colored glass cylinders making colorful shadows on a surface">
+    </a>
 
   </main>
 
