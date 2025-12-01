@@ -16,7 +16,7 @@ header {
   margin-right: 1.5rem;
 }
 
-.navLinks {
+.nav-links {
   display: none;
   justify-content: space-evenly;
   flex: 1;
@@ -24,7 +24,7 @@ header {
   margin-right: 3rem
 }
 
-.navLink {
+.nav-link {
   display: block;
   padding-block: 0.4rem;
   padding-left: 1rem;
@@ -32,22 +32,22 @@ header {
   font-family: 'Nunito',Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.navLink:hover {
+.nav-link:hover {
   text-decoration: underline;
   text-decoration-thickness: 2px;
 }
 
-.navLink:active {
+.nav-link:active {
   text-decoration: underline;
   text-decoration-thickness: 2px;
 }
 
-.navLinksMob ul{ 
+.nav-linksMob ul{ 
   padding-inline: 0.5rem
 
 }
 
-.navLinkMob {
+.nav-link-mob {
   /* padding-block: 1px; */
   width: 100%;
   text-align: center;
@@ -67,11 +67,11 @@ header {
     height: 3.5rem;
   }
 
-  .navLinks {
+  .nav-links {
     display: flex;
   }
 
-  .navLinksMob {
+  .nav-linksMob {
     display: none;
   }
 
@@ -87,7 +87,7 @@ header {
     align-items: center;
   }
 
-  .navLinks {
+  .nav-links {
     max-width: 70rem;
     font-size: 1.4rem;
     justify-self: center;
