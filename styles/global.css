@@ -81,7 +81,7 @@ li {
   list-style: none;
 }
 
-.navLinkMob{}
+/* .navLinkMob{} */
 
 /* .............. iPads (tablets) - Landscape ............ */
 @media (min-width: 768px)  {
@@ -110,7 +110,7 @@ li {
     margin-bottom: 10rem;
   }
   main{
-    margin-inline: 12%;
+    margin-inline: 18%;
   }
 }
 

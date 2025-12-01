@@ -32,16 +32,58 @@
   <link rel="stylesheet" href="styles/variables.css">
   <link rel="stylesheet" href="styles/global.css">
   <link rel="stylesheet" href="styles/exhibitions.css">
+  <link rel="stylesheet" href="styles/textpages.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/footer.css">
 
-  <title>Community Science Museum | Exhibitions</title>
+  <title>Community Science Museum | Exhibitions
+  </title>
 </head>
 
 
 <body>
+  <header>
+    <a href="./" aria-label="Community Science Museum">
+      <img id="logoHeader" src="assets/svg/logo-small.svg" alt="Community Science Museum">
+    </a>
+
+    <nav aria-label="Main Navigation">
+      <ul class="navLinks">
+        <li class="navLink"><a href="/visit.html">Visit</a></li>
+        <li class="navLink"><a href="/explore.html">Explore</a></li>
+        <li class="navLink"><a href="/events.html">Events</a></li>
+        <li class="navLink"><a href="/get-involved.html">Get involved</a></li>
+        <li class="navLink"><a href="/exhibitions.html">Exhibitions</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <nav class="navLinksMob" aria-label="Mobile Navigation">
+    <ul class="flex-row ">
+      <li class="navLinkMob blue">
+        <a href="/visit.html">Visit</a>
+      </li>
+      <li class="navLinkMob green">
+        <a href="/explore.html">Explore</a>
+      </li>
+      <li class="navLinkMob purple">
+        <a href="/events.html">Events</a>
+      </li>
+    </ul>
+    <ul class="flex-row navDiv2">
+      <li class="navLinkMob blue">
+        <a href="/exhibitions.html">Exhibitions</a>
+      </li>
+      <li class="navLinkMob purple">
+        <a href="/get-involved.html">Get involved</a>
+      </li>
+    </ul>
+  </nav>
+
   <main>
-    <section aria-labelledby="exhibitions-heading" role="list">
-      <h1  id="exhibitions-heading">Exhibition Spaces</h1>
-      <article role="listitem">
+    <section aria-labelledby="exhibitions-heading">
+      <h1 id="exhibitions-heading">Exhibition Spaces</h1>
+      <article>
         <h2>Cosmology</h2>
         <img class="articleImg" src="assets/img/galaxy.jpg" alt="A galaxy in space" />
 
@@ -55,10 +97,10 @@
 
       </article>
 
-      <article role="listitem">
+      <article>
         <h2>Evolution</h2>
         <img class="articleImg" src="assets/img/evolution-skeletons.jpg"
-          alt="Four skeletons showing different stages of human evolution" />
+          alt="Four skeletons showing different stages of human evolution" loading="lazy" />
         <p>For centuries, philosophers and scientists have wrestled with the question of our origins. Where do we
           come from and how did we get here? Since Darwin proposed his theory of evolution we have had a framework for
           exploring and understanding our place in this world.</p>
@@ -67,19 +109,37 @@
           time. You can also take some time to meet a few of the creatures who didn't survive, including our Woolly
           Mammoth, the Dodos, and a number of dinosaurs too.</p>
       </article>
-      <article role="listitem">
+
+      <article>
+        <h2>Biology and Medicine</h2>
+        <div class="medicineImg">
+        <img class="articleImg " src="assets/img/old-medicine.jpg" alt="a display of herbs, a morter and a cup"
+          loading="lazy" /></div>
+        <p>From micro-organisms to the human body, major breakthroughs in biology are offering us unique insights into
+          the great wonders of the tiny world.</p>
+
+        <p>For many people their life expectancy is much longer and their quality of life much improved, thanks to the
+          growth of our understanding of medicine. Over a series of exhibits we explore the history of medicine and take
+          a look at some major breakthroughs including the discovery of penicillin and the first heart transplant.</p>
+
+
+        <p class="last">Many of our great medicinal discoveries have come not only from the lab, but also from observing
+          animals in the wild. Often our fellow creatures have beat us to it.</p>
+      </article>
+
+      <article>
         <h2>Robotics and AI</h2>
-        <img class="articleImg" src="assets/img/ai-arm.jpg"
-          alt="A white robot arm reaching toward the camera">
+        <img class="articleImg" src="assets/img/ai-arm.jpg" alt="A white robot arm reaching toward the camera"
+          loading="lazy">
         <p class="last">The information revolution is here and robotics and artificial intelligence are the science of
           the future. From useful home applications of AI to industrial uses of robotics, the future is here. You can
           even say hello and shake the hand of Rob the Robot.</p>
-
       </article>
 
-      <article role="listitem">
+      <article>
         <h2>Ecology</h2>
-        <img class="articleImg" src="assets/img/hands-with-plant.jpg" alt="hands holding a small green plant">
+        <img class="articleImg" src="assets/img/hands-with-plant.jpg" alt="hands holding a small green plant"
+          loading="lazy">
         <p>
           As we learn more and more of the impact humans are having on the planet, the more important it becomes that
           scientists explore how to create a sustainable future not just for humans but for the whole planet.
@@ -87,11 +147,11 @@
         <p class="last">
           In our ecology section of the museum, we unpack the dangers we currently face including global warming,
           extinction of species, and pollution. But we also focus on the positive ways we can all contribute to a
-          brighter  future.</p>
+          brighter future.</p>
       </article>
     </section>
 
-    <a class=" flex-row blue radius">
+    <a class=" flex-row blue radius last">
       <div class="ancortag">
         <h2 class="headingA">See all out guest exhibitions and events!</h2>
         <div class="flex-row ">
@@ -114,13 +174,7 @@
 
   </main>
 
-
-
-
-
-
-
-  <!-- <footer>
+  <footer>
     <div class="footer-container">
       <div class="logo-some-column-container">
         <div class="footer-logo-container">
@@ -172,7 +226,7 @@
         <p>&copy Community Science Museum 2015</p>
       </div>
     </div>
-  </footer> -->
+  </footer>
 </body>
 
 </html>

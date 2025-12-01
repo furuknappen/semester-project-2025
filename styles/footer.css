@@ -1,11 +1,11 @@
-dl {
+footer dl {
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 1rem;
   color: var(--fontColor);
   font-family: var(--header-font);
 }
-ul {
+ footer ul {
   margin:0;
   padding:0;
   line-height: 3rem;
