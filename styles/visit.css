@@ -84,6 +84,7 @@ height: 100%;
   gap: 2rem;
   max-width: 1000px;
 }
+/* fix the weird layout issue on 700+ px screens */
 .grid-container {
 display: flex;
 justify-content: center;
