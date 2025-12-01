@@ -23,7 +23,7 @@
 .btnBlue:active{
   background-color: var(--blue);
   /* font-weight: 900; */
-  transform: translateY(30px);
+  transform: translateY(3px);
 }
 
 .btnPurple{
@@ -39,7 +39,7 @@
 .btnPurple:active{
   background-color: var(--purple);
   font-weight: bolder;
-  transform: translateY(30px);
+  transform: translateY(3px);
 }
 
 .btnGreen{
@@ -54,7 +54,7 @@
 .btnGreen:active{
   background-color: var(--green);
   font-weight: bolder;
-  transform: translateY(30px);
+  transform: translateY(3px);
 }
 
 
