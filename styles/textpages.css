@@ -1,0 +1,67 @@
+.articleImg{
+  height: auto;
+  width:100%;
+  border-radius: 30px;
+}
+
+.textContainer{
+  display: flex;
+  flex-direction: column;
+
+}
+.articleBtn{
+  margin-top: 2rem;
+  width: fit-content;
+  margin-left: auto;
+ 
+}
+
+
+
+.imgContainer{
+height: 300px;
+overflow: hidden;
+position: relative;
+ border-radius: 30px;
+ /* object-position: 50% 90%; */
+ 
+}
+
+#teacher{
+  width: 100%;             
+  height: 100%;
+  object-fit: cover;     
+  /* object-position: bottom; */
+  object-position: center;
+}
+
+
+
+/* .............. iPads (tablets) - Landscape ............ */
+@media (min-width: 768px) {
+  /* .articleImg{
+    width: auto;
+    height: 300px;
+  }
+  
+  .textContainer{
+    padding-right: 5rem;
+  } */
+
+  .articleBtn{
+
+  margin-top: 4rem;
+  width: fit-content;
+  margin-left: auto;
+ 
+}
+.imgContainer{
+height: 800px;
+overflow: hidden;
+position: relative;
+ border-radius: 30px;
+ /* object-position: 50% 90%; */
+ 
+}
+  
+}

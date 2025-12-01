@@ -48,10 +48,10 @@ header {
 }
 
 .navLinkMob {
-  padding-block: 3px;
+  /* padding-block: 1px; */
   width: 100%;
   text-align: center;
-  margin: 0.2rem;
+  margin-inline: 0.1rem;
   border-radius: var(--round);
   font-family: 'Nunito',Verdana, Geneva, Tahoma, sans-serif;
 

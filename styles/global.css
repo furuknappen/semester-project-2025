@@ -6,7 +6,8 @@ body{
 }
 
 main{
-  padding-inline: clamp(1rem, 5vw, 7rem);
+
+  padding-inline: clamp(1rem, 5vw, 16rem);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -14,16 +15,26 @@ main{
 }
 
 .radius{
-  border-radius: 50px;
+  border-radius: 20px;
 }
 
 .last{
   margin-bottom: var(--gap5);
 }
 
-.flex{
+.flex-row{
   display: flex;
+  flex-direction: row;;
+  justify-content: center;
+  align-items: center;
 }
+.flex-column{
+  display: flex;
+  flex-direction: column;;
+  justify-content: center;
+  align-items: center;
+}
+
 
 .purple{
   background-color: var(--purple);
@@ -70,7 +81,7 @@ li {
   list-style: none;
 }
 
-.navLinkMob{}
+/* .navLinkMob{} */
 
 /* .............. iPads (tablets) - Landscape ............ */
 @media (min-width: 768px)  {
@@ -83,7 +94,7 @@ li {
 
   h2{
     font-family: Nunito;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     font-weight: 700;
     line-height: normal;
   }
@@ -98,6 +109,9 @@ li {
   .last{
     margin-bottom: 10rem;
   }
+  main{
+    margin-inline: 18%;
+  }
 }
 
 /* ............ Desktops ................*/
@@ -107,8 +121,11 @@ li {
 } */
 
 /*............ Large Desktops ................*/
-/* @media (min-width: 2550px) {
+@media (min-width: 2550px) {
+  main{
+    margin-inline: 25%;
+  }
+  
 
-
-} */
+}
 
