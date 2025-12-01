@@ -1,0 +1,37 @@
+.special-events-img-container img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-box);
+}
+.box-padding {
+  padding:2rem;
+}
+.box {
+  border-radius: var(--radius-box);
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+.special-events-grid-container img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-box);
+}
+.special-events-grid-container { 
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+.img-box1 {
+grid-column: span 2;
+grid-row: span 1;
+}
+.button-box {
+grid-column: span 2;
+grid-row: span 1;
+}
+.img-box2 {
+grid-column: span 2;
+grid-row: span 1;
+}
