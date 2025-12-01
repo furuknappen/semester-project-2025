@@ -4,12 +4,14 @@ width: 100%;
   object-fit: cover;
   display: block;
 }
-.visit-us-text {
-  display:flex;
-  flex-direction: column;
-  justify-items: center;
-  justify-self: center;
-  max-width: 45ch;
+.visit-us-container {
+  max-width: 120ch;
+margin: 0 auto;
+padding: 2rem 1rem;
+}
+.line-break {
+  display:block;
+  margin-top: 1rem;
 }
 
 .box-padding {
@@ -69,7 +71,7 @@ height: 100%;
 /* .............. iPads (tablets) - Landscape ............ */
 @media (min-width: 768px)  {
   .visit-hero-image{
-  height: 800px;
+  height: 600px;
   }
   .visit-us-text {
   max-width: 100ch;
@@ -79,7 +81,7 @@ height: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  gap: 8px;
+  gap: 2rem;
   max-width: 1000px;
 }
 .grid-container {
@@ -117,9 +119,7 @@ grid-row-start: 3;
 }
 /* .............. Desktop ............ */
 @media (min-width: 1025px) {
-  .visit-hero-image{ 
-  height: 1000px;
-}
+
 .grid-container-visit {
   max-width: 1500px;
 }
