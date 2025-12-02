@@ -41,12 +41,38 @@
     <meta property="og:locale" content="en_GB" />
     <meta property="og:site_name" content="Community Science Museum" />
 
-    <!-- <link rel="shortcut icon" href="public/favicon-16x16.png" type="image/png">
-		<link rel="shortcut icon" href="public/favicon.ico" type="image/x-icon">
-		<link rel="shortcut icon" href="public/favicon-32x32.png" type="image/png">
-		<link rel="shortcut icon" href="public/android-chrome-192x192.png" type="image/png">
-		<link rel="shortcut icon" href="public/android-chrome-512x512.png" type="image/png">
-		<link rel="shortcut icon" href="public/apple-touch-icon.png" type="image/png"> -->
+    <link
+      rel="icon"
+      href="assets/favicon/favicon-16x16.png"
+      type="image/png"
+      sizes="16x16"
+    />
+    <link
+      rel="icon"
+      href="assets/favicon/favicon-32x32.png"
+      type="image/png"
+      sizes="32x32"
+    />
+    <link rel="icon" href="assets/favicon/favicon.ico" type="image/x-icon" />
+
+    <link
+      rel="icon"
+      href="assets/favicon/android-chrome-192x192.png"
+      type="image/png"
+      sizes="192x192"
+    />
+    <link
+      rel="icon"
+      href="assets/favicon/android-chrome-512x512.png"
+      type="image/png"
+      sizes="512x512"
+    />
+
+    <link
+      rel="apple-touch-icon"
+      href="assets/favicon/apple-touch-icon.png"
+      sizes="180x180"
+    />
 
     <link rel="stylesheet" href="styles/variables.css" />
     <link rel="stylesheet" href="styles/global.css" />
@@ -56,95 +82,93 @@
   </head>
 
   <body>
+    <!--Good with accessibility-->
     <img
       class="visit-hero-image"
       src="assets/img/boy-in-museum.jpg"
       alt="Boy staring curiously in museum"
     />
-    <!-- make the heading center over the layout-->
-    <main>
-      <section class="visit-us-container">
+    <main class="visit-us-container">
+      <section class="header-text-container">
         <h1>Visit us</h1>
         <p class="last">
           Our museum is a place where you can explore, learn, and discover new
           ideas. Whether you enjoy history, science, art, or simply finding out
           how things came to be, there is something here for you.
         </p>
-        <div class="grid-container-visit">
-          <div class="visit-box1 box box-padding">
-            <h2>Location</h2>
-            <p>
-              The museum is located in Kongens gate 1, 7011 Trondheim. There is
-              free parking up to 7 hours for guests and visitors.
-            </p>
-            <div class="visit-map">
-              <iframe
-                title="Map of location to Community science museum"
-                class="iframe-border-radius visit-map"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1784.6111724122866!2d10.398005242311807!3d63.429968676408485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x466d319bd5506741%3A0xc19dc194656d7c78!2sVitensenteret!5e0!3m2!1sno!2sno!4v1764073548199!5m2!1sno!2sno"
-                width=""
-                height=""
-                style="border: 0"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-              ></iframe>
-            </div>
+      </section>
+      <section class="grid-container-visit last">
+        <div class="visit-box1 box box-padding">
+          <h2>Location</h2>
+          <p>
+            The museum is located in Kongens gate 1, 7011 Trondheim. There is
+            free parking up to 7 hours for guests and visitors.
+          </p>
+          <div class="visit-map">
+            <iframe
+              title="Map of location to Community science museum"
+              class="iframe-border-radius visit-map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1784.6111724122866!2d10.398005242311807!3d63.429968676408485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x466d319bd5506741%3A0xc19dc194656d7c78!2sVitensenteret!5e0!3m2!1sno!2sno!4v1764073548199!5m2!1sno!2sno"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
-          <div class="visit-box2 box box-padding">
-            <h2>Opening hours</h2>
-            <dl aria-label="Opening hours for the whole week">
-              <dt>Mon:</dt>
-              <dd>Closed</dd>
-              <dt>Tue:</dt>
-              <dd>10:00-16:00</dd>
-              <dt>Wed:</dt>
-              <dd>10:00-16:00</dd>
-              <dt>Thu:</dt>
-              <dd>10:00-16:00</dd>
-              <dt>Fri:</dt>
-              <dd>10:00-19:00</dd>
-              <dt>Sat:</dt>
-              <dd>09:00-16:00</dd>
-              <dt>Sun:</dt>
-              <dd>09:00-13:00</dd>
-            </dl>
-          </div>
-          <div class="visit-box3 box box-padding">
-            <h2>Admission</h2>
-            <p>
-              The entrance is free. Guided tour: 70 NOK per person. If you would
-              like to organise a guided tour for your group of 6 or more people,
-              please contact us by mail to arrange the tour.
-              <span class="line-break">
-                <a href="mailto:CSMTrondheim@gmail.no "
-                  >Email: CSMTrondheim@gmail.no</a
-                ></span
-              >
-            </p>
-          </div>
-          <div class="visit-box4 box box-padding">
-            <h2>Accessibility</h2>
-            <p>
-              The museum has wheelchair accessibility ramps. It also has audio
-              guides and braille display signs for the visually impaired.
-            </p>
-          </div>
-          <div class="visit-box5 box box-padding">
-            <h2>Shop</h2>
-            <p>
-              Our shop offers a range of memorabilia from the museum as well as
-              great gifts and activity packs that  allow you to continue to
-              explore science even after you’ve left the museum.
-            </p>
-          </div>
-          <div class="visit-box6 box box-padding">
-            <h2>Food and drinks</h2>
-            <p>
-              There is a café attached to the museum where you can get light
-              lunches, soft drinks, coffee, snacks and more.
-            </p>
-          </div>
+        </div>
+        <div class="visit-box2 box box-padding">
+          <h2>Opening hours</h2>
+          <dl aria-label="Opening hours for the whole week">
+            <dt>Mon:</dt>
+            <dd>Closed</dd>
+            <dt>Tue:</dt>
+            <dd>10:00-16:00</dd>
+            <dt>Wed:</dt>
+            <dd>10:00-16:00</dd>
+            <dt>Thu:</dt>
+            <dd>10:00-16:00</dd>
+            <dt>Fri:</dt>
+            <dd>10:00-19:00</dd>
+            <dt>Sat:</dt>
+            <dd>09:00-16:00</dd>
+            <dt>Sun:</dt>
+            <dd>09:00-13:00</dd>
+          </dl>
+        </div>
+        <div class="visit-box3 box box-padding">
+          <h2>Admission</h2>
+          <p>
+            The entrance is free. Guided tour: 70 NOK per person. If you would
+            like to organise a guided tour for your group of 6 or more people,
+            please contact us by mail to arrange the tour.
+            <span class="line-break">
+              <a href="mailto:CSMTrondheim@gmail.no "
+                >Email: CSMTrondheim@gmail.no</a
+              ></span
+            >
+          </p>
+        </div>
+        <div class="visit-box4 box box-padding">
+          <h2>Accessibility</h2>
+          <p>
+            The museum has wheelchair accessibility ramps. It also has audio
+            guides and braille display signs for the visually impaired.
+          </p>
+        </div>
+        <div class="visit-box5 box box-padding">
+          <h2>Shop</h2>
+          <p>
+            Our shop offers a range of memorabilia from the museum as well as
+            great gifts and activity packs that allow you to continue to explore
+            science even after you've left the museum.
+          </p>
+        </div>
+        <div class="visit-box6 box box-padding">
+          <h2>Food and drinks</h2>
+          <p>
+            There is a café attached to the museum where you can get light
+            lunches, soft drinks, coffee, snacks and more.
+          </p>
         </div>
       </section>
     </main>

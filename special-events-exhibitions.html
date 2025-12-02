@@ -41,13 +41,38 @@
     <meta property="og:locale" content="en_GB" />
     <meta property="og:site_name" content="Community Science Museum" />
 
-    <!-- <link rel="shortcut icon" href="public/favicon-16x16.png" type="image/png">
-		<link rel="shortcut icon" href="public/favicon.ico" type="image/x-icon">
-		<link rel="shortcut icon" href="public/favicon-32x32.png" type="image/png">
-		<link rel="shortcut icon" href="public/android-chrome-192x192.png" type="image/png">
-		<link rel="shortcut icon" href="public/android-chrome-512x512.png" type="image/png">
-		<link rel="shortcut icon" href="public/apple-touch-icon.png" type="image/png"> -->
+    <link
+      rel="icon"
+      href="assets/favicon/favicon-16x16.png"
+      type="image/png"
+      sizes="16x16"
+    />
+    <link
+      rel="icon"
+      href="assets/favicon/favicon-32x32.png"
+      type="image/png"
+      sizes="32x32"
+    />
+    <link rel="icon" href="assets/favicon/favicon.ico" type="image/x-icon" />
 
+    <link
+      rel="icon"
+      href="assets/favicon/android-chrome-192x192.png"
+      type="image/png"
+      sizes="192x192"
+    />
+    <link
+      rel="icon"
+      href="assets/favicon/android-chrome-512x512.png"
+      type="image/png"
+      sizes="512x512"
+    />
+
+    <link
+      rel="apple-touch-icon"
+      href="assets/favicon/apple-touch-icon.png"
+      sizes="180x180"
+    />
     <link rel="stylesheet" href="styles/variables.css" />
     <link rel="stylesheet" href="styles/global.css" />
     <link rel="stylesheet" href="styles/components.css" />
@@ -57,10 +82,11 @@
   </head>
 
   <body>
+    <!--Good with accessibility-->
     <main>
-      <h1>Special events and exhibitions</h1>
-      <div class="special-events-container">
-        <div class="special-events-box green box box-padding last">
+      <section class="special-events-container">
+        <h1>Special events and exhibitions</h1>
+        <article class="special-events-box green box box-padding">
           <div class="events-text">
             <h2>Visiting professor of Aeronautics</h2>
             <div class="events-img-phone special-events-img-container">
@@ -76,7 +102,10 @@
               lectures on the development of aeronautics and where the future
               lies in this exciting 'space'.
             </p>
-            <a class="event-btn btn btnGreen" href="coming-soon.html"
+            <a
+              class="event-btn btn btnGreen"
+              href="coming-soon.html"
+              aria-label="Read more about Visiting professor of aeronautics"
               >Read more</a
             >
           </div>
@@ -87,8 +116,8 @@
           display"
             />
           </div>
-        </div>
-        <div class="special-events-box purple box box-padding last">
+        </article>
+        <article class="special-events-box purple box box-padding">
           <div class="events-text">
             <h2>Night in the museum</h2>
             <div class="events-img-phone special-events-img-container">
@@ -103,7 +132,10 @@
               own sleeping bag and get ready to rough it as we go exploring the
               wonders of science.
             </p>
-            <a class="event-btn btn btnPurple" href="coming-soon.html"
+            <a
+              class="event-btn btn btnPurple"
+              href="coming-soon.html"
+              aria-label="Read more about a night in the museum"
               >Read more</a
             >
           </div>
@@ -113,8 +145,8 @@
               alt="An exhibition of a dinosaur skeleton"
             />
           </div>
-        </div>
-        <div class="special-events-box blue box box-padding last">
+        </article>
+        <article class="special-events-box blue box box-padding last">
           <div class="events-text">
             <h2>Energetica Exhibition on Loan</h2>
             <div class="events-img-phone special-events-img-container">
@@ -131,7 +163,11 @@
               powering lighting, to 'Wind Island' that shows how turbines are
               able to use and control wind to create power.
             </p>
-            <a class="event-btn btn btnBlue" href="coming-soon.html">
+            <a
+              class="event-btn btn btnBlue"
+              href="coming-soon.html"
+              aria-label="Read more about Energetica exhibition on Loan"
+            >
               Read more</a
             >
           </div>
@@ -141,22 +177,35 @@
               alt="Two large windmills with more in the background with a beautiful landscape and in the sunset"
             />
           </div>
-        </div>
-      </div>
-      <section class="layout-container">
+        </article>
+      </section>
+      <section class="layout-container last">
         <div class="events-layout-box1 img-layout-container">
-          <img src="assets/img/planet.jpg" alt="" />
+          <img
+            src="assets/img/planet.jpg"
+            alt="A detailed blue and orange planet set in space"
+          />
         </div>
-        <div class="events-layout-box2 blue">
-          <h2>See all our permanent exhibitions</h2>
-          <p>
-            Along with our short term exhibitions, we also have our permanent
-            exhibitions and installments.
-          </p>
-          <!-- add an arrow-->
-        </div>
+        <a class="events-layout-box2 blue" href="exhibitions.html">
+          <div>
+            <h2>See all our permanent exhibitions</h2>
+            <p>
+              Along with our short term exhibitions, we also have our permanent
+              exhibitions and installments.
+            </p>
+          </div>
+          <img
+            class="arrow-right"
+            src="assets/svg/arrow-right.svg"
+            alt=""
+            role="representation"
+          />
+        </a>
         <div class="events-layout-box3 img-layout-container">
-          <img src="assets/img/cancer-cells.jpg" alt="" />
+          <img
+            src="assets/img/cancer-cells.jpg"
+            alt="Cancer cells seen under a microscope"
+          />
         </div>
       </section>
     </main>
