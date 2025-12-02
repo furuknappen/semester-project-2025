@@ -5,13 +5,17 @@ width: 100%;
   display: block;
 }
 .visit-us-container {
-  max-width: 120ch;
-margin: 0 auto;
-padding: 2rem 1rem;
+display: flex;
+flex-direction: column;
+/* justify-content: center; */
+align-items: center;
 }
 .line-break {
   display:block;
   margin-top: 1rem;
+}
+.header-text-container {
+max-width: 70rem;
 }
 
 .box-padding {
@@ -83,13 +87,8 @@ height: 100%;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 2rem;
-  max-width: 1000px;
 }
-/* fix the weird layout issue on 700+ px screens */
-.grid-container {
-display: flex;
-justify-content: center;
-}
+
 /* map box becomes larger and stretches over two columns and two rows */
 .visit-box1 {
 grid-column: span 2;
@@ -124,7 +123,7 @@ grid-row-start: 3;
 @media (min-width: 1025px) {
 
 .grid-container-visit {
-  max-width: 1500px;
+  max-width: 70rem;
 }
 
 }
