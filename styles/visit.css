@@ -1,31 +1,33 @@
 .visit-hero-image {
-width: 100%;
+  width: 100%;
   height: 300px;
   object-fit: cover;
   display: block;
 }
+.grid-container-visit h2 {
+  margin-block: 0px;
+}
 .visit-us-container {
   max-width: 120ch;
-margin: 0 auto;
-padding: 2rem 1rem;
+  margin: 0 auto;
+  padding: 2rem 1rem;
 }
 .line-break {
-  display:block;
+  display: block;
   margin-top: 1rem;
 }
 
 .box-padding {
-  padding:2rem;
+  padding: 2rem;
 }
 .iframe-border-radius {
   border-radius: var(--radius-box);
 }
 .grid-container-visit {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    gap: 3rem;
-
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 1rem;
 }
 .box {
   border-radius: var(--radius-box);
@@ -45,7 +47,7 @@ padding: 2rem 1rem;
   background-color: var(--green);
 }
 .visit-box3 {
-  background-color: var(--blue);;
+  background-color: var(--blue);
 }
 .visit-box4 {
   background-color: var(--purple);
@@ -64,65 +66,59 @@ dl {
   font-family: var(--header-font);
 }
 
-.visit-map { 
-width: 100%;
-height: 100%;
+.visit-map {
+  width: 100%;
+  height: 100%;
 }
 /* .............. iPads (tablets) - Landscape ............ */
-@media (min-width: 768px)  {
-  .visit-hero-image{
-  height: 600px;
+@media (min-width: 768px) {
+  .visit-hero-image {
+    height: 600px;
   }
   .visit-us-text {
-  max-width: 100ch;
+    max-width: 100ch;
   }
-
-.grid-container-visit {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 2rem;
-  max-width: 1000px;
-}
-/* fix the weird layout issue on 700+ px screens */
-.grid-container {
-display: flex;
-justify-content: center;
-}
-/* map box becomes larger and stretches over two columns and two rows */
-.visit-box1 {
-grid-column: span 2;
-grid-row: span 2;
-}
-.visit-box2 {
-grid-column-start: 3;
-}
-
-.visit-box3 {
-grid-column-start: 3;
-grid-row-start: 2;
-}
-
-.visit-box4 {
-grid-column-start: 3;
-grid-row-start: 3;
-}
-
-.visit-box5 {
-grid-column-start: 1;
-grid-row-start: 3;
-}
-
-.visit-box6 {
-grid-column-start: 2;
-grid-row-start: 3;
-}  
 }
 /* .............. Desktop ............ */
 @media (min-width: 1025px) {
+  .grid-container-visit {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1rem;
+    height: 100vh;
+  }
+  /* fix the weird layout issue on 700+ px screens */
+  .grid-container {
+    display: flex;
+    justify-content: center;
+  }
+  /* map box becomes larger and stretches over two columns and two rows */
+  .visit-box1 {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+  .visit-box2 {
+    grid-column-start: 3;
+  }
 
-.grid-container-visit {
-  max-width: 1500px;
-}
+  .visit-box3 {
+    grid-column-start: 3;
+    grid-row-start: 2;
+  }
 
+  .visit-box4 {
+    grid-column-start: 3;
+    grid-row-start: 3;
+  }
+
+  .visit-box5 {
+    grid-column-start: 1;
+    grid-row-start: 3;
+  }
+
+  .visit-box6 {
+    grid-column-start: 2;
+    grid-row-start: 3;
+  }
 }

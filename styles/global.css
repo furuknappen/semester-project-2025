@@ -1,76 +1,72 @@
-body{
-  padding:0;
-  margin:0;
+body {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
   font-family: "Nunito Sans";
 }
 
-main{
-
+main {
   padding-inline: clamp(1rem, 5vw, 16rem);
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
 
-.radius{
+.radius {
   border-radius: 20px;
 }
 
-.last{
+.last {
   margin-bottom: var(--gap5);
 }
 
-.flex-row{
+.flex-row {
   display: flex;
-  flex-direction: row;;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
-.flex-column{
+.flex-column {
   display: flex;
-  flex-direction: column;;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-
-.purple{
+.purple {
   background-color: var(--purple);
 }
-.blue{
+.blue {
   background-color: var(--blue);
 }
 
-.green{
+.green {
   background-color: var(--green);
 }
 
-a{
+a {
   text-decoration: none;
   color: var(--FontColor);
 }
 
-
-h1{
-  font-family: 'Nunito';
+h1 {
+  font-family: "Nunito";
   font-size: 2rem;
   font-weight: 700;
   line-height: normal;
-  color: var(--FontColor, #1C1D25);
+  color: var(--FontColor, #1c1d25);
 }
 
-h2{
-  color: var(--FontColor, #1C1D25);
+h2 {
+  color: var(--FontColor, #1c1d25);
   font-family: Nunito;
   font-size: 1.5rem;
   font-weight: 700;
   line-height: normal;
 }
 
-p{
-  color: var(--FontColor, #1C1D25);
+p {
+  color: var(--FontColor, #1c1d25);
   font-family: "Nunito Sans";
   font-size: 1rem;
   font-weight: 500;
@@ -84,33 +80,33 @@ li {
 /* .nav-link-mob{} */
 
 /* .............. iPads (tablets) - Landscape ............ */
-@media (min-width: 768px)  {
-  h1{
-  font-family: Nunito;
-  font-size: 3rem;
-  font-weight: 700;
-  line-height: normal;
+@media (min-width: 768px) {
+  h1 {
+    font-family: Nunito;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: normal;
   }
 
-  h2{
+  h2 {
     font-family: Nunito;
     font-size: 1.6rem;
     font-weight: 700;
     line-height: normal;
   }
 
-  p{
+  p {
     font-family: "Nunito Sans";
     font-size: 1rem;
     font-weight: 500;
     line-height: 200%; /* 40px */
   }
 
-  .last{
+  .last {
     margin-bottom: 10rem;
   }
-  main{
-    margin-inline: 18%;
+  main {
+    margin-inline: 15%;
   }
 }
 
@@ -122,10 +118,7 @@ li {
 
 /*............ Large Desktops ................*/
 @media (min-width: 2550px) {
-  main{
+  main {
     margin-inline: 25%;
   }
-  
-
 }
-
