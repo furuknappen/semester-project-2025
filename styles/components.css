@@ -29,7 +29,6 @@
 .btnPurple{
   background-color: var(--purple);
   color: var(--purpleDark);
-
 }
 
 .btnPurple:hover{
@@ -56,7 +55,6 @@
   font-weight: bolder;
   transform: translateY(3px);
 }
-
 
 .btnSquare{
   padding: 1rem 3rem;

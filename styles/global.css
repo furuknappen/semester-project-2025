@@ -7,7 +7,7 @@ body{
 
 main{
 
-  padding-inline: clamp(1rem, 5vw, 16rem);
+  padding-inline: clamp(1rem, 12vw, 25%);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -81,7 +81,7 @@ li {
   list-style: none;
 }
 
-/* .nav-link-mob{} */
+/* .nav-linkMob{} */
 
 /* .............. iPads (tablets) - Landscape ............ */
 @media (min-width: 768px)  {
@@ -94,7 +94,7 @@ li {
 
   h2{
     font-family: Nunito;
-    font-size: 1.6rem;
+    font-size: 2rem; /* endret */
     font-weight: 700;
     line-height: normal;
   }
@@ -110,7 +110,7 @@ li {
     margin-bottom: 10rem;
   }
   main{
-    margin-inline: 18%;
+    /* margin-inline: 15%; */
   }
 }
 
@@ -123,7 +123,7 @@ li {
 /*............ Large Desktops ................*/
 @media (min-width: 2550px) {
   main{
-    margin-inline: 25%;
+    /* margin-inline: 20%; */
   }
   
 
