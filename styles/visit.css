@@ -24,6 +24,7 @@ max-width: 70rem;
 .iframe-border-radius {
   border-radius: var(--radius-box);
 }
+
 .grid-container-visit {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
