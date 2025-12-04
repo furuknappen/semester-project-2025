@@ -11,15 +11,13 @@
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-auto-rows: repeat(3, 1fr);
-  /* max-width: 30ch; */
   overflow: hidden;
 }
 
 .get-involved-box-contact {
   border-radius: var(--radius-box);
   padding: 1rem;
-  margin-bottom: 4rem
-
+  margin-bottom: 4rem;
 }
 
 .get-involved-img-container {
