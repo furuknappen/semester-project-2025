@@ -1,7 +1,6 @@
 @font-face {
   font-family: 'Nunito';
   src: url('/assets/fonts/nunito/Nunito-VariableFont_wght.ttf') format('woff2');
-  /* font-weight:700; */
   font-style: normal;
   font-display: swap;
 }
@@ -18,9 +17,9 @@
 :root {
   --blue: #6CDCED;
   --blueLight: #AFF4FF;
-  --blueDark:#104851;
+  --blueDark: #104851;
   --purple: #D0AAFF;
-  --purpleLight:#E0C7FF;
+  --purpleLight: #E0C7FF;
   --purpleDark: #4F00B0;
   --green: #BAEE6D;
   --greenLight: #D9FFA1;
@@ -35,7 +34,7 @@
   --gap3: 3rem;
   --gap4: 4rem;
   --gap5: 5rem;
-  
-  --header-font: 'Nunito','Verdana';
+
+  --header-font: 'Nunito', 'Verdana';
   --p-font: 'Nunito Sans', 'Verdana';
 }

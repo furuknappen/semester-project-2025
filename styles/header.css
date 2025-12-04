@@ -7,7 +7,6 @@ header {
   padding-inline: 1rem;
   height: 3.5rem;
   margin-top: 0rem;
-  /*dette er ikke et godt valg*/
   box-shadow: 0 1px 3px hsla(193, 53%, 35%, 0.12);
 }
 
@@ -29,7 +28,7 @@ header {
   padding-block: 0.4rem;
   padding-left: 1rem;
   padding-right: 3rem;
-  font-family: 'Nunito',Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Nunito', Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .navLink:hover {
@@ -42,26 +41,22 @@ header {
   text-decoration-thickness: 2px;
 }
 
-.navLinksMob ul{ 
+.navLinksMob ul {
   padding-inline: 0.5rem
-
 }
 
 .navLinkMob {
-  /* padding-block: 1px; */
   width: 100%;
   text-align: center;
   margin-inline: 0.1rem;
   border-radius: var(--round);
-  font-family: 'Nunito',Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Nunito', Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
 
 /* .............. iPads (tablets) - Landscape ............ */
-@media (min-width: 769px)
-/*and (max-width: 1024px)*/
-  {
+@media (min-width: 769px) {
   header {
     padding-inline: 1.5rem;
     height: 3.5rem;
@@ -91,15 +86,9 @@ header {
     max-width: 70rem;
     font-size: 1.4rem;
     justify-self: center;
-
   }
 
   #logoHeader {
     height: 3rem;
   }
-
-
 }
-
-
-

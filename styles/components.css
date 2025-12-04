@@ -1,64 +1,63 @@
-
 /* ---------- BUTTONS ---------- */
-.btn{
+.btn {
   padding: 7px 15px;
   font-size: 16px;
   font-weight: 700;
   border: 2px solid white;
   font-family: "Nunito";
   border-radius: var(--round);
+  cursor: pointer;
 
 }
 
-.btnBlue{
+.btnBlue {
   background-color: var(--blue);
   color: var(--blueDark);
 
 }
 
-.btnBlue:hover{
+.btnBlue:hover {
   background-color: var(--blueLight);
 }
 
-.btnBlue:active{
+.btnBlue:active {
   background-color: var(--blue);
-  /* font-weight: 900; */
   transform: translateY(30px);
 }
 
-.btnPurple{
+.btnPurple {
   background-color: var(--purple);
   color: var(--purpleDark);
 
 }
 
-.btnPurple:hover{
+.btnPurple:hover {
   background-color: var(--purpleLight);
 }
 
-.btnPurple:active{
+.btnPurple:active {
   background-color: var(--purple);
   font-weight: bolder;
   transform: translateY(30px);
 }
 
-.btnGreen{
+.btnGreen {
   background-color: var(--green);
   color: var(--greenDark);
 }
 
-.btnGreen:hover{
+.btnGreen:hover {
   background-color: var(--greenLight);
 }
 
-.btnGreen:active{
+.btnGreen:active {
   background-color: var(--green);
   font-weight: bolder;
   transform: translateY(30px);
 }
 
 
-.btnSquare{
+.btnSquare {
   padding: 1rem 3rem;
   border-radius: var(--radius-box);
   text-align: center;

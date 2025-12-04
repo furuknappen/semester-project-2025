@@ -1,37 +1,34 @@
-.articleImg{
+.articleImg {
   height: auto;
-  width:100%;
+  width: 100%;
   border-radius: 30px;
 }
 
-.textContainer{
+.textContainer {
   display: flex;
   flex-direction: column;
 
 }
-.articleBtn{
+
+.articleBtn {
   margin-top: 2rem;
   width: fit-content;
   margin-left: auto;
- 
+
 }
 
+.imgContainer {
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 30px;
 
-
-.imgContainer{
-height: 300px;
-overflow: hidden;
-position: relative;
- border-radius: 30px;
- /* object-position: 50% 90%; */
- 
 }
 
-#teacher{
-  width: 100%;             
+#teacher {
+  width: 100%;
   height: 100%;
-  object-fit: cover;     
-  /* object-position: bottom; */
+  object-fit: cover;
   object-position: center;
 }
 
@@ -39,29 +36,18 @@ position: relative;
 
 /* .............. iPads (tablets) - Landscape ............ */
 @media (min-width: 768px) {
-  /* .articleImg{
-    width: auto;
-    height: 300px;
+  .articleBtn {
+    margin-top: 4rem;
+    width: fit-content;
+    margin-left: auto;
   }
-  
-  .textContainer{
-    padding-right: 5rem;
-  } */
 
-  .articleBtn{
+  .imgContainer {
+    height: 800px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 30px;
 
-  margin-top: 4rem;
-  width: fit-content;
-  margin-left: auto;
- 
-}
-.imgContainer{
-height: 800px;
-overflow: hidden;
-position: relative;
- border-radius: 30px;
- /* object-position: 50% 90%; */
- 
-}
-  
+  }
+
 }
