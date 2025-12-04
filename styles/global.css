@@ -85,16 +85,15 @@ li {
 /* .............. iPads (tablets) - Landscape ............ */
 @media (min-width: 768px)  {
   h1{
-     font-family: var(--header-font);
-  font-size: 3rem;
-  font-weight: 700;
-  line-height: normal;
+    font-family: var(--header-font);
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: normal;
   }
 
   h2{
-    /* font-family: 'Nunito';  */
-    font-family: var(--header-font);
 
+    font-family: var(--header-font);
     font-size: 2rem; /* endret */
     font-weight: 700;
     line-height: normal;
