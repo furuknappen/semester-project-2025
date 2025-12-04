@@ -5,7 +5,10 @@
   display: block;
   margin-bottom: 3rem
 }
-
+.get-involved-container {
+  margin: 0 auto;
+  max-width: 70rem;
+}
 
 .get-involved-grid {
   display: grid;
