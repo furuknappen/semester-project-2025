@@ -52,6 +52,8 @@ a{
 }
 
 
+
+
 h1{
  
     font-family: var(--header-font);
@@ -127,7 +129,7 @@ li {
 
 
 /*............ Large Desktops ................*/
-@media (min-width: 2550px) {
+@media (min-width: 1025px) {
   main{
     max-width: 70rem;
 
