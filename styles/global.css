@@ -2,12 +2,12 @@ body{
   padding:0;
   margin:0;
   box-sizing: border-box;
-  font-family: "Nunito Sans";
+  font-family: 'Nunito Sans', 'Verdana';
 }
 
 main{
-  /* padding-inline: clamp(1rem, 12vw, 25%); */
-    padding-inline: clamp(1rem, 5vw, 20rem);
+
+  padding-inline: clamp(1rem, 5vw, 20rem);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -53,7 +53,8 @@ a{
 
 
 h1{
-  font-family: 'Nunito';
+ 
+    font-family: var(--header-font);
   font-size: 2rem;
   font-weight: 700;
   line-height: normal;
@@ -62,62 +63,68 @@ h1{
 
 h2{
   color: var(--FontColor, #1C1D25);
-  font-family: Nunito;
+    font-family: var(--header-font);
   font-size: 1.5rem;
   font-weight: 700;
   line-height: normal;
 }
 
+
 p{
   color: var(--FontColor, #1C1D25);
-  font-family: "Nunito Sans";
+  font-family: var(--p-font);
   font-size: 1rem;
   font-weight: 500;
-  line-height: 200%; /* 40px */
+  line-height: 200%; 
 }
 
 li {
   list-style: none;
 }
+.skip {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height:1px;
+  overflow: hidden;
+}
+.skip:focus {
+  position: static;
+  width: auto;
+  height: auto;
+}
 
-/* .nav-linkMob{} */
+
 
 /* .............. iPads (tablets) - Landscape ............ */
 @media (min-width: 768px)  {
   h1{
-  font-family: Nunito;
-  font-size: 3rem;
-  font-weight: 700;
-  line-height: normal;
-  }
-
-  h2{
-    font-family: Nunito;
-    font-size: 2rem; /* endret */
+    font-size: 3rem;
     font-weight: 700;
     line-height: normal;
   }
 
+  h2{
+    font-size: 2rem; 
+    font-weight: 700;
+    line-height: normal;
+  }
+
+ 
   p{
     font-family: "Nunito Sans";
     font-size: 1.2rem;
     font-weight: 500;
-    line-height: 200%; /* 40px */
+    line-height: 200%; 
   }
 
   .last{
     margin-bottom: 10rem;
   }
-  /* main{
 
-  }*/
 } 
 
-/* ............ Desktops ................*/
-/* @media (min-width: 1025px) {
-
-
-} */
 
 /*............ Large Desktops ................*/
 @media (min-width: 2550px) {

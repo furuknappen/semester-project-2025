@@ -15,7 +15,7 @@ footer dl {
 .footer-headings {
   font-family: var(--header-font);
   color: var(--fontColor);
-  font-size: 1rem;
+  font-size: 1.3rem;
   text-decoration: underline;
   font-weight: 600;
 }
@@ -24,7 +24,7 @@ footer dl {
   flex-direction: column;
   background-color: var(--green);
   flex: wrap;
-  padding: 2rem 2rem 2rem 2rem;
+  padding: 3rem 2rem 2rem 2rem;
 }
 .footer-logo-container {
   display: flex;
@@ -32,6 +32,7 @@ footer dl {
   justify-items: center;
   flex-wrap: wrap;
   margin-top: 2rem;
+ 
 }
 
 .social-media-container img {
@@ -70,6 +71,17 @@ footer dl {
   }
   .footer-logo-container img {
     max-width: 15rem;
+  }
+  
+  .logo-some-column-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    /* justify-content: center; */
+    /* align-items: center; */
+    
+/* border: 2px solid red; */
+margin-block: auto
   }
 
 }
