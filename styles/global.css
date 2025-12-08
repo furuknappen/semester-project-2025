@@ -6,7 +6,8 @@ body{
 }
 
 main{
-  padding-inline: clamp(1rem, 12vw, 25%);
+  /* padding-inline: clamp(1rem, 12vw, 25%); */
+    padding-inline: clamp(1rem, 5vw, 20rem);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -99,7 +100,8 @@ li {
 
  
   p{
-    font-size: 1rem;
+    font-family: "Nunito Sans";
+    font-size: 1.2rem;
     font-weight: 500;
     line-height: 200%; 
   }
@@ -119,11 +121,14 @@ li {
 } */
 
 /*............ Large Desktops ................*/
-/* @media (min-width: 2550px) {
+@media (min-width: 2550px) {
   main{
+    max-width: 70rem;
+
+    margin: 0 auto;
     
   }
   
 
 }
- */
+
