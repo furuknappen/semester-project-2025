@@ -2,7 +2,7 @@ body{
   padding:0;
   margin:0;
   box-sizing: border-box;
-  font-family: "Nunito Sans";
+  font-family: 'Nunito Sans', 'Verdana';
 }
 
 main{
@@ -53,7 +53,8 @@ a{
 
 
 h1{
-  font-family: 'Nunito';
+ 
+    font-family: var(--header-font);
   font-size: 2rem;
   font-weight: 700;
   line-height: normal;
@@ -62,15 +63,16 @@ h1{
 
 h2{
   color: var(--FontColor, #1C1D25);
-  font-family: Nunito;
+    font-family: var(--header-font);
   font-size: 1.5rem;
   font-weight: 700;
   line-height: normal;
 }
 
+
 p{
   color: var(--FontColor, #1C1D25);
-  font-family: "Nunito Sans";
+  font-family: var(--p-font);
   font-size: 1rem;
   font-weight: 500;
   line-height: 200%; /* 40px */
@@ -85,24 +87,23 @@ li {
 /* .............. iPads (tablets) - Landscape ............ */
 @media (min-width: 768px)  {
   h1{
-  font-family: Nunito;
-  font-size: 3rem;
-  font-weight: 700;
-  line-height: normal;
-  }
-
-  h2{
-    font-family: Nunito;
-    font-size: 2rem; /* endret */
+    font-size: 3rem;
     font-weight: 700;
     line-height: normal;
   }
 
+  h2{
+    font-size: 2rem; 
+    font-weight: 700;
+    line-height: normal;
+  }
+
+ 
   p{
     font-family: "Nunito Sans";
     font-size: 1.2rem;
     font-weight: 500;
-    line-height: 200%; /* 40px */
+    line-height: 200%; 
   }
 
   .last{
