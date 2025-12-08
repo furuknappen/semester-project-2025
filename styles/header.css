@@ -57,6 +57,9 @@ header {
 
 }
 
+a:current {
+  text-decoration: underline;
+}
 
 /* .............. iPads (tablets) - Landscape ............ */
 @media (min-width: 769px)
