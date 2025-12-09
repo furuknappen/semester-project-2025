@@ -1,238 +1,348 @@
 <!DOCTYPE html>
 <html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="author"
+      content="Inger Mathilde Eiklund & Camilla Furuknappen Larsen"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Come and explore the laws of the universe and learn about our past and future!"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="author" content="Inger Mathilde Eiklund & Camilla Furuknappen Larsen" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Come and explore the laws of the universe and learn about our past and future!" />
+    <meta property="og:title" content="Community Science Museum" />
+    <meta
+      property="og:description"
+      content="Come and explore the laws of the universe and learn about our past and future!"
+    />
+    <meta
+      property="og:url"
+      content="https://furuknappen.github.io/semester-project-2025/"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://furuknappen.github.io/semester-project-2025/assets/img/hero-image-homepage.jpg"
+    />
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:site_name" content="Community Science Museum" />
 
-  <meta property="og:title" content="Community Science Museum" />
-  <meta property="og:description"
-    content="Come and explore the laws of the universe and learn about our past and future!" />
-  <meta property="og:url" content="https://furuknappen.github.io/semester-project-2025/" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image"
-    content="https://furuknappen.github.io/semester-project-2025/assets/img/hero-image-homepage.jpg" />
-  <meta property="og:locale" content="en_GB" />
-  <meta property="og:site_name" content="Community Science Museum" />
+    <link
+      rel="icon"
+      href="assets/favicon/favicon-16x16.png"
+      type="image/png"
+      sizes="16x16"
+    />
+    <link
+      rel="icon"
+      href="assets/favicon/favicon-32x32.png"
+      type="image/png"
+      sizes="32x32"
+    />
+    <link rel="icon" href="assets/favicon/favicon.ico" type="image/x-icon" />
+    <link
+      rel="icon"
+      href="assets/favicon/android-chrome-192x192.png"
+      type="image/png"
+      sizes="192x192"
+    />
+    <link
+      rel="icon"
+      href="assets/favicon/android-chrome-512x512.png"
+      type="image/png"
+      sizes="512x512"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="assets/favicon/apple-touch-icon.png"
+      sizes="180x180"
+    />
 
-  <link rel="icon" href="assets/favicon/favicon-16x16.png" type="image/png" sizes="16x16" />
-  <link rel="icon" href="assets/favicon/favicon-32x32.png" type="image/png" sizes="32x32" />
-  <link rel="icon" href="assets/favicon/favicon.ico" type="image/x-icon" />
-  <link rel="icon" href="assets/favicon/android-chrome-192x192.png" type="image/png" sizes="192x192" />
-  <link rel="icon" href="assets/favicon/android-chrome-512x512.png" type="image/png" sizes="512x512" />
-  <link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png" sizes="180x180" />
+    <link rel="stylesheet" href="styles/variables.css" />
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/components.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="stylesheet" href="styles/special-events-exhibitions.css" />
 
-  <link rel="stylesheet" href="styles/variables.css" />
-  <link rel="stylesheet" href="styles/global.css" />
-  <link rel="stylesheet" href="styles/components.css" />
-  <link rel="stylesheet" href="styles/header.css" />
-  <link rel="stylesheet" href="styles/footer.css" />
-  <link rel="stylesheet" href="styles/special-events-exhibitions.css" />
+    <title>Community Science Museum | Special events and exhibitions</title>
+  </head>
 
-  <title>Community Science Museum | Special events and exhibitions</title>
-</head>
+  <body>
+    <header>
+      <a href="#main" class="skip">Skip to main content</a>
+      <a href="./">
+        <img
+          id="logoHeader"
+          src="./assets/svg/logo-small.svg"
+          alt="Community Science Museum"
+        />
+      </a>
 
-<body>
-  <header>
-    <a href="#main" class="skip">Skip to main content</a>
-    <a href="./">
-      <img id="logoHeader" src="./assets/svg/logo-small.svg" alt="Community Science Museum" />
-    </a>
-
-    <nav aria-label="Main Navigation">
-      <ul class="nav-links">
-        <li class="nav-link"><a href="./visit.html">Visit</a></li>
-        <li class="nav-link"><a href="./explore.html">Explore</a></li>
-        <li class="nav-link">
-          <a aria-current="page" href="./special-events-exhibitions.html">Events</a>
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li class="nav-link"><a href="./visit.html">Visit</a></li>
+          <li class="nav-link"><a href="./explore.html">Explore</a></li>
+          <li class="nav-link">
+            <a aria-current="page" href="./special-events-exhibitions.html"
+              >Events</a
+            >
+          </li>
+          <li class="nav-link"><a href="./exhibitions.html">Exhibitions</a></li>
+          <li class="nav-link">
+            <a href="./get-involved.html">Get involved</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <nav class="nav-linksMob" aria-hidden="true" aria-label="Mobile Navigation">
+      <ul class="flex-row">
+        <li class="nav-link-mob blue">
+          <a href="./visit.html">Visit</a>
         </li>
-        <li class="nav-link"><a href="./exhibitions.html">Exhibitions</a></li>
-        <li class="nav-link">
+        <li class="nav-link-mob green">
+          <a href="./explore.html">Explore</a>
+        </li>
+        <li class="nav-link-mob purple">
+          <a href="./special-events-exhibitions.html">Events</a>
+        </li>
+      </ul>
+      <ul class="flex-row navDiv2">
+        <li class="nav-link-mob blue">
+          <a href="./exhibitions.html">Exhibitions</a>
+        </li>
+        <li class="nav-link-mob purple">
           <a href="./get-involved.html">Get involved</a>
         </li>
       </ul>
     </nav>
-  </header>
-  <nav class="nav-linksMob" aria-hidden="true" aria-label="Mobile Navigation">
-    <ul class="flex-row">
-      <li class="nav-link-mob blue">
-        <a href="./visit.html">Visit</a>
-      </li>
-      <li class="nav-link-mob green">
-        <a href="./explore.html">Explore</a>
-      </li>
-      <li class="nav-link-mob purple">
-        <a href="./special-events-exhibitions.html">Events</a>
-      </li>
-    </ul>
-    <ul class="flex-row navDiv2">
-      <li class="nav-link-mob blue">
-        <a href="./exhibitions.html">Exhibitions</a>
-      </li>
-      <li class="nav-link-mob purple">
-        <a href="./get-involved.html">Get involved</a>
-      </li>
-    </ul>
-  </nav>
-  <main id="main">
-    <section class="special-events-container">
-      <h1>Special events and exhibitions</h1>
-      <article class="special-events-box green box box-padding">
-        <div class="events-text">
-          <h2>Visiting professor of Aeronautics</h2>
-          <div class="events-img-phone special-events-img-container">
-            <img src="./assets/img/astronaut.jpg" alt="An astronaut sitting in a
-          display" />
+    <main id="main">
+      <section class="special-events-container">
+        <h1>Special events and exhibitions</h1>
+        <article class="special-events-box green box box-padding">
+          <div class="events-text">
+            <h2>Visiting professor of Aeronautics</h2>
+            <div class="events-img-phone special-events-img-container">
+              <img
+                src="./assets/img/astronaut.jpg"
+                alt="An astronaut sitting in a
+          display"
+              />
+            </div>
+            <p>
+              It is our pleasure to announce that Prof Sheila Widnall from the
+              Massachusetts Institute of Technology will be delivering 3
+              lectures on the development of aeronautics and where the future
+              lies in this exciting 'space'.
+            </p>
+            <a
+              class="event-btn btn btnGreen"
+              href="coming-soon.html"
+              aria-label="View the article about visiting professor of aeronautics"
+              >Read more</a
+            >
           </div>
-          <p>
-            It is our pleasure to announce that Prof Sheila Widnall from the
-            Massachusetts Institute of Technology will be delivering 3
-            lectures on the development of aeronautics and where the future
-            lies in this exciting 'space'.
-          </p>
-          <a class="event-btn btn btnGreen" href="coming-soon.html"
-            aria-label="View the article about visiting professor of aeronautics">Read more</a>
-        </div>
-        <div class="events-img-desktop special-events-img-container">
-          <img src="./assets/img/astronaut.jpg" alt="An astronaut sitting in a
-          display" />
-        </div>
-      </article>
-      <article class="special-events-box purple box box-padding">
-        <div class="events-text">
-          <h2>Night in the museum</h2>
-          <div class="events-img-phone special-events-img-container">
-            <img src="./assets/img/dinosaur-purple-skeleton.jpg" alt="An exhibition of a dinosaur skeleton" />
+          <div class="events-img-desktop special-events-img-container">
+            <img
+              src="./assets/img/astronaut.jpg"
+              alt="An astronaut sitting in a
+          display"
+            />
           </div>
-          <p>
-            Get your family together for an exciting night in the museum as
-            you sleep over beside dinosaurs and science displays. Bring your
-            own sleeping bag and get ready to rough it as we go exploring the
-            wonders of science.
-          </p>
-          <a class="event-btn btn btnPurple" href="./coming-soon.html"
-            aria-label="View the article about a night at the museum">Read more</a>
-        </div>
-        <div class="events-img-desktop special-events-img-container">
-          <img src="./assets/img/dinosaur-purple-skeleton.jpg" alt="An exhibition of a dinosaur skeleton" />
-        </div>
-      </article>
-      <article class="special-events-box blue box box-padding last">
-        <div class="events-text">
-          <h2>Energetica Exhibition on Loan</h2>
-          <div class="events-img-phone special-events-img-container">
-            <img src="./assets/img/windmill.jpg"
-              alt="Two large windmills with more in the background with a beautiful landscape and in the sunset" />
+        </article>
+        <article class="special-events-box purple box box-padding">
+          <div class="events-text">
+            <h2>Night in the museum</h2>
+            <div class="events-img-phone special-events-img-container">
+              <img
+                src="./assets/img/dinosaur-purple-skeleton.jpg"
+                alt="An exhibition of a dinosaur skeleton"
+              />
+            </div>
+            <p>
+              Get your family together for an exciting night in the museum as
+              you sleep over beside dinosaurs and science displays. Bring your
+              own sleeping bag and get ready to rough it as we go exploring the
+              wonders of science.
+            </p>
+            <a
+              class="event-btn btn btnPurple"
+              href="./coming-soon.html"
+              aria-label="View the article about a night at the museum"
+              >Read more</a
+            >
           </div>
-          <p>
-            On loan from the NEMO Science Museum in Amsterdam, the Energetica
-            exhibition is coming to the Community Science Museum. It's a
-            series of installations that allow visitors to experience the
-            power of the elements as we harness them. From solar energy
-            powering lighting, to 'Wind Island' that shows how turbines are
-            able to use and control wind to create power.
-          </p>
-          <a class="event-btn btn btnBlue" href="./coming-soon.html"
-            aria-label="View the article about Energetica exhibition on Loan">
-            Read more</a>
+          <div class="events-img-desktop special-events-img-container">
+            <img
+              src="./assets/img/dinosaur-purple-skeleton.jpg"
+              alt="An exhibition of a dinosaur skeleton"
+            />
+          </div>
+        </article>
+        <article class="special-events-box blue box box-padding last">
+          <div class="events-text">
+            <h2>Energetica Exhibition on Loan</h2>
+            <div class="events-img-phone special-events-img-container">
+              <img
+                src="./assets/img/windmill.jpg"
+                alt="Two large windmills with more in the background with a beautiful landscape and in the sunset"
+              />
+            </div>
+            <p>
+              On loan from the NEMO Science Museum in Amsterdam, the Energetica
+              exhibition is coming to the Community Science Museum. It's a
+              series of installations that allow visitors to experience the
+              power of the elements as we harness them. From solar energy
+              powering lighting, to 'Wind Island' that shows how turbines are
+              able to use and control wind to create power.
+            </p>
+            <a
+              class="event-btn btn btnBlue"
+              href="./coming-soon.html"
+              aria-label="View the article about Energetica exhibition on Loan"
+            >
+              Read more</a
+            >
+          </div>
+          <div class="events-img-desktop special-events-img-container">
+            <img
+              src="./assets/img/windmill.jpg"
+              alt="Two large windmills with more in the background with a beautiful landscape and in the sunset"
+            />
+          </div>
+        </article>
+      </section>
+      <section class="layout-container">
+        <div class="events-layout-box1 img-layout-container">
+          <img
+            src="./assets/img/planet.jpg"
+            alt="A detailed blue and orange planet set in space"
+          />
         </div>
-        <div class="events-img-desktop special-events-img-container">
-          <img src="./assets/img/windmill.jpg"
-            alt="Two large windmills with more in the background with a beautiful landscape and in the sunset" />
+        <a class="events-layout-box2 blue" href="exhibitions.html">
+          <div>
+            <h2>See all our permanent exhibitions</h2>
+            <p>
+              Along with our short term exhibitions, we also have our permanent
+              exhibitions and installments.
+            </p>
+          </div>
+          <img class="arrow-right" src="./assets/svg/arrow-right.svg" alt="" />
+        </a>
+        <div class="events-layout-box3 img-layout-container">
+          <img
+            src="./assets/img/cancer-cells.jpg"
+            alt="Cancer cells seen under a microscope"
+          />
         </div>
-      </article>
-    </section>
-    <section class="layout-container">
-      <div class="events-layout-box1 img-layout-container">
-        <img src="./assets/img/planet.jpg" alt="A detailed blue and orange planet set in space" />
-      </div>
-      <a class="events-layout-box2 blue" href="exhibitions.html">
-        <div>
-          <h2>See all our permanent exhibitions</h2>
-          <p>
-            Along with our short term exhibitions, we also have our permanent
-            exhibitions and installments.
-          </p>
-        </div>
-        <img class="arrow-right" src="./assets/svg/arrow-right.svg" alt="" />
-      </a>
-      <div class="events-layout-box3 img-layout-container">
-        <img src="./assets/img/cancer-cells.jpg" alt="Cancer cells seen under a microscope" />
-      </div>
-    </section>
-  </main>
-  <footer class="footer-container">
-    <div class="logo-some-column-container">
-      <a href="./index.html" class="footer-logo-container">
-        <img src="./assets/svg/logo-small.svg" alt="Community Science Museum logo" />
-      </a>
-      <nav aria-label="Social media links" class="social-media-container">
-        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer nofollow"
-          aria-label="Go to our Instagram">
-          <img src="./assets/svg/instagram.svg" alt="" /></a>
-        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer nofollow"
-          aria-label="Go to our Facebook">
-          <img src="./assets/svg/facebook.svg" alt="" /></a>
-        <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer nofollow"
-          aria-label="Go to our TikTok">
-          <img src="./assets/svg/tiktok.svg" alt="" /></a>
+      </section>
+    </main>
+    <footer class="footer-container">
+      <div class="logo-some-column-container">
+        <a href="./index.html" class="footer-logo-container">
+          <img
+            src="./assets/svg/logo-small.svg"
+            alt="Community Science Museum logo"
+          />
+        </a>
+        <nav aria-label="Social media links" class="social-media-container">
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+            aria-label="Go to our Instagram"
+          >
+            <img src="./assets/svg/instagram.svg" alt=""
+          /></a>
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+            aria-label="Go to our Facebook"
+          >
+            <img src="./assets/svg/facebook.svg" alt=""
+          /></a>
+          <a
+            href="https://www.tiktok.com/"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+            aria-label="Go to our TikTok"
+          >
+            <img src="./assets/svg/tiktok.svg" alt=""
+          /></a>
 
-        <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer nofollow"
-          aria-label="Go to our YouTube">
-          <img src="./assets/svg/youtube.svg" alt="" /></a>
-      </nav>
-    </div>
-    <div class="opening-hours-container">
-      <h3 class="footer-headings" id="opening-hours-heading">
-        Opening hours
-      </h3>
-      <dl aria-labelledby="opening-hours-heading">
-        <dt>Mon:</dt>
-        <dd>Closed</dd>
-        <dt>Tue:</dt>
-        <dd>
-          <time datetime="10:00">10:00</time>-<time datetime="16:00">16:00</time>
-        </dd>
-        <dt>Wed:</dt>
-        <dd>
-          <time datetime="10:00">10:00</time>-<time datetime="16:00">16:00</time>
-        </dd>
-        <dt>Thu:</dt>
-        <dd>
-          <time datetime="10:00">10:00</time>-<time datetime="16:00">16:00</time>
-        </dd>
-        <dt>Fri:</dt>
-        <dd>
-          <time datetime="10:00">10:00</time>-<time datetime="19:00">19:00</time>
-        </dd>
-        <dt>Sat:</dt>
-        <dd>
-          <time datetime="09:00">09:00</time>-<time datetime="16:00">16:00</time>
-        </dd>
-        <dt>Sun:</dt>
-        <dd>
-          <time datetime="09:00">09:00</time>-<time datetime="13:00">13:00</time>
-        </dd>
-      </dl>
-    </div>
-    <div class="information-container">
-      <nav aria-labelledby="information-heading">
-        <h3 class="footer-headings" id="information-heading">Information</h3>
-        <ul>
-          <li><a href="./visit.html">Visit</a></li>
-          <li><a href="./explore.html">Explore</a></li>
-          <li><a href="./special-events-exhibitions.html">Events</a></li>
-          <li><a href="./get-involved.html">Get involved</a></li>
-          <li><a href="./coming-soon.html">Contact us</a></li>
-        </ul>
-      </nav>
-    </div>
-    <div class="copyright-container">
-      <p>&copy; Community Science Museum 2015</p>
-    </div>
-  </footer>
-</body>
-
+          <a
+            href="https://www.youtube.com/"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+            aria-label="Go to our YouTube"
+          >
+            <img src="./assets/svg/youtube.svg" alt=""
+          /></a>
+        </nav>
+      </div>
+      <div class="opening-hours-container">
+        <h3 class="footer-headings" id="opening-hours-heading">
+          Opening hours
+        </h3>
+        <dl aria-labelledby="opening-hours-heading">
+          <dt>Mon:</dt>
+          <dd>Closed</dd>
+          <dt>Tue:</dt>
+          <dd>
+            <time datetime="10:00">10:00</time>-<time datetime="16:00"
+              >16:00</time
+            >
+          </dd>
+          <dt>Wed:</dt>
+          <dd>
+            <time datetime="10:00">10:00</time>-<time datetime="16:00"
+              >16:00</time
+            >
+          </dd>
+          <dt>Thu:</dt>
+          <dd>
+            <time datetime="10:00">10:00</time>-<time datetime="16:00"
+              >16:00</time
+            >
+          </dd>
+          <dt>Fri:</dt>
+          <dd>
+            <time datetime="10:00">10:00</time>-<time datetime="19:00"
+              >19:00</time
+            >
+          </dd>
+          <dt>Sat:</dt>
+          <dd>
+            <time datetime="09:00">09:00</time>-<time datetime="16:00"
+              >16:00</time
+            >
+          </dd>
+          <dt>Sun:</dt>
+          <dd>
+            <time datetime="09:00">09:00</time>-<time datetime="13:00"
+              >13:00</time
+            >
+          </dd>
+        </dl>
+      </div>
+      <div class="information-container">
+        <nav aria-labelledby="information-heading">
+          <h3 class="footer-headings" id="information-heading">Information</h3>
+          <ul>
+            <li><a href="./visit.html">Visit</a></li>
+            <li><a href="./explore.html">Explore</a></li>
+            <li><a href="./special-events-exhibitions.html">Events</a></li>
+            <li><a href="./get-involved.html">Get involved</a></li>
+            <li><a href="./coming-soon.html">Contact us</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="copyright-container">
+        <p>&#169; Community Science Museum 2015</p>
+      </div>
+    </footer>
+  </body>
 </html>
