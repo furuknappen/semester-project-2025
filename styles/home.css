@@ -1,11 +1,3 @@
-/* .homeMain {
-  padding-inline: clamp(1rem, 5vw, 7rem);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-} */
-
 .heroImg {
   width: 100%;
   height: 300px;
@@ -38,14 +30,9 @@
   margin-bottom: 1rem;
 }
 
-.gridContainer {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: repeat(6, 1fr);
-  gap: 1rem;
-  max-width: 100%;
-  /* max-height: 300px; */
 
+.boxMain {
+  padding-bottom: 1.5rem
 }
 
 .grid-img-div {
@@ -62,17 +49,16 @@
   object-position: center;
   display: block;
   margin-block: 0;
-  /* object-position: 55% 50%; */
   border-radius: var(--radius-box);
 }
 
 /* .............. iPads (tablets) - Landscape ............ */
 @media (min-width: 768px) {
- .homeMain h2{
+  .homeMain h2 {
     text-align: center;
     margin-top: 3rem;
     margin-bottom: 1rem;
- }
+  }
 
   .heroImg {
     height: 650px;
@@ -92,12 +78,12 @@
   .gridContainer {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-     gap: 1rem;
-   
+    gap: 1rem;
+    display: grid;
+    max-width: 100%;
   }
 
   .gridContainer p {
-    /* padding: 1.5rem; */
     padding: clamp(1.5rem, 10%, 3rem);
     border-radius: var(--radius-box);
     margin-block: 0px;
@@ -115,22 +101,20 @@
   .box-3 {
     grid-column: span 2 / span 2;
     grid-row-start: 2;
-  
-
   }
 
   .box-4 {
     grid-column-start: 3;
     grid-row-start: 2;
     background-color: var(--purple);
-       min-width: 200px;
+    min-width: 200px;
   }
 
   .box-5 {
     grid-column: span 2 / span 2;
     grid-row-start: 3;
     background-color: var(--green);
-       min-width: 200px;
+    min-width: 200px;
   }
 
   .box-6 {
@@ -140,11 +124,6 @@
 
 }
 
-
-
-
-
-
 /* ............ Desktops ................*/
 @media (min-width: 1025px) {
 
@@ -153,10 +132,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    /* width: 65%; */
     gap: 5rem;
     margin-top: 2rem;
-
   }
 
   .gridContainer {
