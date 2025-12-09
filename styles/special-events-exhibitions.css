@@ -63,10 +63,11 @@ text-align: left;
 .layout-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3,1fr);
+  grid-template-rows: repeat(2,1fr);
   gap: 1rem;
-    max-width: 70rem;
+  max-width: 70rem;
   margin: 0 auto;
+  margin-bottom: 8rem;
 }
 .events-layout-box1 {
   grid-column: span 2;
