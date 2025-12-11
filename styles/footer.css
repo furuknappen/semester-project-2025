@@ -18,7 +18,9 @@ footer dl {
   font-size: 1.3rem;
   text-decoration: underline;
   font-weight: 600;
+  margin-bottom: 0.2rem;
 }
+
 .footer-container {
   display: flex;
   flex-direction: column;
@@ -34,7 +36,9 @@ footer dl {
   margin-top: 2rem;
  
 }
-
+.footer-logo-container img {
+  height: 3rem;
+}
 .social-media-container img {
   width: 24px;
   height:24px;
@@ -77,12 +81,11 @@ footer dl {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    /* justify-content: center; */
-    /* align-items: center; */
-    
-/* border: 2px solid red; */
-margin-block: auto
+    margin-block: auto;
   }
+  .footer-logo-container img {
+  height: 5rem;
+}
 
 }
 /*............ Desktops ................*/
