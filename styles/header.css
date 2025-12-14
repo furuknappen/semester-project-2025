@@ -29,6 +29,7 @@ header {
   padding-left: 1rem;
   padding-right: 3rem;
   font-family: 'Nunito',Verdana, Geneva, Tahoma, sans-serif;
+  white-space: nowrap;
 }
 
 
@@ -44,6 +45,7 @@ header {
   margin-inline: 0.1rem;
   border-radius: var(--round);
   font-family: 'Nunito',Verdana, Geneva, Tahoma, sans-serif;
+  padding-block: 0.4rem;
 
 }
 .nav-links a {
@@ -71,9 +73,7 @@ header {
 
 
 /* .............. iPads (tablets) - Landscape ............ */
-@media (min-width: 769px)
-/*and (max-width: 1024px)*/
-  {
+@media (min-width: 769px) {
   header {
     padding-inline: 1.5rem;
     height: 3.5rem;
