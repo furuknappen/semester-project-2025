@@ -27,16 +27,15 @@ header {
   display: block;
   padding-block: 0.4rem;
   padding-left: 1rem;
-  padding-right: 3rem;
-  font-family: 'Nunito',Verdana, Geneva, Tahoma, sans-serif;
+  padding-right: 1rem;
+  font-family: 'Nunito', Verdana, Geneva, Tahoma, sans-serif;
   white-space: nowrap;
 }
 
 
 
-.nav-linksMob ul{ 
+.nav-linksMob ul {
   padding-inline: 0.5rem
-
 }
 
 .nav-link-mob {
@@ -44,29 +43,32 @@ header {
   text-align: center;
   margin-inline: 0.1rem;
   border-radius: var(--round);
-  font-family: 'Nunito',Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Nunito', Verdana, Geneva, Tahoma, sans-serif;
   padding-block: 0.4rem;
 
 }
+
 .nav-links a {
-    position: relative; 
+  position: relative;
   text-decoration: none;
   color: inherit;
 }
 
-.nav-links a::after{
-  content:"";
+.nav-links a::after {
+  content: "";
   position: absolute;
   left: 0;
-  bottom: 1px;  
+  bottom: 1px;
   width: 0;
   height: 2px;
   background-color: currentColor;
   transition: width 0.25s ease;
 }
+
 .nav-links a:hover::after {
   width: 100%;
 }
+
 .nav-links a[aria-current="page"]::after {
   width: 100%;
 }
@@ -87,6 +89,9 @@ header {
     display: none;
   }
 
+  #hamburgerBTN {
+    display: none;
+  }
 }
 
 
@@ -106,6 +111,10 @@ header {
 
   }
 
+  .nav-link{
+      padding-right: 3rem;
+  }
+  
   #logoHeader {
     height: 3rem;
   }
@@ -113,5 +122,35 @@ header {
 
 }
 
+/* add this code */
 
+.navMobLinks,
+#menu-checkbox {
+  display: none;
+  position: relative;
+}
 
+.navMobLinks a[aria-current="page"] {
+  background-color: var(--blue);
+}
+
+#menu-checkbox:checked~.navMobLinks {
+  display: block;
+}
+
+.navMobLinks {
+  position: absolute;
+  right: 0;
+  top: 56px;
+  background-color: white;
+  padding-block: 1rem;
+  /* flex-direction: column; */
+}
+
+.navLink {
+  display: block;
+  padding-block: 0.4rem;
+  padding-left: 1rem;
+  padding-right: 3rem;
+  color: var(--mainColor);
+}

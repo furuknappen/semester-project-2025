@@ -94,8 +94,24 @@
         </ul>
       </nav>
     </header>
+<!-- this is not accessibility friendly, source moodle -->
+    <div id="hamburgerBTN" aria-label="Open Menu">
 
-    <nav class="nav-linksMob" aria-label="Mobile Navigation">
+      <input type="checkbox" id="menu-checkbox" />
+      <label for="menu-checkbox" class="hamburgerIcon">
+        <img id="hamburgerSvg" src="assets/svg/hamburger-menu.svg" alt="Hamburger menu"> </label>
+      <nav class="navLinks navMobLinks" aria-label="Main Navigation">
+        <a class="navLink" href="./index.html">Home</a>
+        <a class="navLink navHome" href="./visit.html">Visit</a>
+        <a class="navLink" href="./explore.html">Explore</a>
+        <a class="navLink" href="./special-events-exhibitions.html">Events</a>
+        <a class="navLink" href="./exhibitions.html">Exhibitions</a>
+        <a class="navLink" href="./get-involved.html">Get involved</a>
+
+      </nav>
+    </div>
+    </header>
+    <!-- <nav class="nav-linksMob" aria-label="Mobile Navigation">
       <ul class="flex-row">
         <li class="nav-link-mob blue">
           <a href="./visit.html">Visit</a>
@@ -114,7 +130,7 @@
         <li class="nav-link-mob purple">
           <a href="./get-involved.html">Get involved</a>
         </li>
-      </ul>
+      </ul> -->
     </nav>
     <main id="main">
       <section class="coming-soon-section">
