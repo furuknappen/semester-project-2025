@@ -1,4 +1,4 @@
-## Semester Project 1 - Community Museum - A Collaboration 🦕🦕
+##  Community Museum - Semester Project 1 - A Collaboration 🦕🦕
 
 [Live demo ](https://furuknappen.github.io/semester-project-2025/)
 
